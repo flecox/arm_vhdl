@@ -20,7 +20,6 @@ begin
   	 dut_ADDER: entity work.adder port map (a => PC_E, b => SrcB_add, y => PCBranch_E);
 	 dut_MUX2: entity work.MUX2 port map(d0 => ReadData2_E, d1 => SignImm_E, s => AluSrc, y => SrcB_alu);
 	 dut_ALU: entity work.alu port map(a => ReadData1_E, b => SrcB_alu, alucontrol => AluControl, zero => Zero_E, result => AluResult_E);
-	 
 	 writeData_E <= readData2_E;
   
 end behaviour;

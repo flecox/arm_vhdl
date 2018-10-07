@@ -155,6 +155,7 @@ mem_to_wb_in(68 downto 5) <= DM_readData;
 mem_to_wb_in(132 downto 69) <= exe_to_mem_out(132 downto 69);
 mem_to_wb_in(133) <= memtoReg_m;
 mem_to_wb_in(134) <= regWrite_m;
+
 mem_wb_reg: entity work.flopr generic map(N => 135) port map(d => mem_to_wb_in, clk => clk, reset => reset, q => mem_to_wb_out);
 
 memtoReg_w <= mem_to_wb_out(133);
