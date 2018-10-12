@@ -12,7 +12,8 @@ entity datapath is
 			IM_readData : in std_logic_vector (31 downto 0);
 			DM_readData: in std_logic_vector (N-1 downto 0);
 			IM_addr,DM_addr, DM_writeData: out std_logic_vector (N-1 downto 0);
-         DM_writeEnable, DM_readEnable : out std_logic
+         DM_writeEnable, DM_readEnable: out std_logic;
+			instruction_out:out std_logic_vector (31 downto 0)
        );
 end entity;
 
@@ -21,7 +22,7 @@ architecture behav of datapath is
 
 --- Signals
 signal PCSrc, zero: std_logic;
-signal PCBranch, PCBranch_E,writeData_D,signImm, PC, DM_readData_s : std_logic_vector(N-1 downto 0);
+signal PCBranch, PCBranch_E,writeData_D,PC, DM_readData_s, signImm : std_logic_vector(N-1 downto 0);
 signal readData1,readData2, aluResult,writeData_E : std_logic_vector(N-1 downto 0);
 -- if -> id signals
 signal if_to_id_in, if_to_id_out : std_logic_vector(95 downto 0);
@@ -56,8 +57,7 @@ begin
    if_to_id_in(95 downto 32) <= PC;
    if_to_id_in(31 downto 0) <= IM_readData;
    if_id_reg: entity work.flopr generic map(N => 96) port map(d => if_to_id_in, clk => clk, reset => reset, q => if_to_id_out);
-
-	
+	instruction_out <= if_to_id_out(31 downto 0);
 -- Decode Inst
 	decode_0: entity work.decode 
 	generic map (
@@ -73,7 +73,6 @@ begin
 		readData1_D => readData1,
 		readData2_D => readData2	
 	);
-
 -- id_exe_reg registros if id:
    id_to_exe_in(4 downto 0) <= if_to_id_out(4 downto 0);
    id_to_exe_in(68 downto 5) <= readData2;
@@ -148,8 +147,7 @@ memory_0: entity work.memory
          Branch => Branch_m,
          zero => zero_m,
 			PCSrc => PCSrc
-         );
-
+         ); 
 mem_to_wb_in(4 downto 0) <= exe_to_mem_out(4 downto 0);
 mem_to_wb_in(68 downto 5) <= DM_readData;
 mem_to_wb_in(132 downto 69) <= exe_to_mem_out(132 downto 69);

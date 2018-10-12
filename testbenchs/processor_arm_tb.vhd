@@ -12,7 +12,7 @@ constant CLK_PERIOD : time := 20 ns;
 signal clk,finish, dump : std_logic:= '0';
 signal reset		: std_logic:= '1';
 signal DM_addr, DM_writeData: std_logic_vector (63 downto 0);
-signal DM_writeEnable : std_logic;
+signal DM_writeEnable: std_logic;
 -- Output Signals
 signal led : std_logic_vector (7 downto 0);
 begin
