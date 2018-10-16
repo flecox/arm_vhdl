@@ -44,20 +44,20 @@ architecture rtl of regfile is
 	x"000000000000000e",
 	x"000000000000000f",
 	x"0000000000000010",
-	x"0000000000000020",
-   x"0000000000000030",
-   x"0000000000000040",
-   x"0000000000000050",
-   x"0000000000000060",
-   x"0000000000000070",
-   x"0000000000000080",
-   x"0000000000000090",
-   x"00000000000000a0",
-   x"00000000000000b0",
-   x"00000000000000c0",
-   x"00000000000000d0",
-   x"00000000000000e0",
-   x"00000000000000f0",
+	x"0000000000000011",
+   x"0000000000000012",
+   x"0000000000000013",
+   x"0000000000000014",
+   x"0000000000000015",
+   x"0000000000000016",
+   x"0000000000000017",
+   x"0000000000000018",
+   x"0000000000000019",
+   x"000000000000001a",
+   x"000000000000001b",
+   x"000000000000001c",
+   x"000000000000001d",
+   x"000000000000001e",
 	x"0000000000000000"
 	);
 
@@ -65,13 +65,14 @@ begin
 	process(clk)
 	begin
       	if(clk'event and clk = '1') then
-                -- escribimos los datos wd3 en el registro wa3
-                	if(we3='1' and wa3 /= "11111") then
-                        	rom(to_integer(unsigned(wa3))) <= wd3;
-						end if;
+--                -- escribimos los datos wd3 en el registro wa3
+               	if(we3='1' and wa3 /= "11111") then
+                       	rom(to_integer(unsigned(wa3))) <= wd3;
+					end if;
 			end if;
-   end process;
-	rd1 <= rom(to_integer(unsigned(ra1)));
-	rd2 <= rom(to_integer(unsigned(ra2)));
+  end process;
+  rd1 <= wd3 when (wa3 = ra1 and we3='1') else rom(to_integer(unsigned(ra1)));
+  rd2 <= wd3 when (wa3 = ra2 and we3='1') else rom(to_integer(unsigned(ra2)));
+
 
 end rtl;

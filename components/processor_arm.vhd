@@ -8,7 +8,7 @@ entity processor_arm is
 	 generic (N: integer := 64);
     port (
 	 clk, reset, dump : in std_logic;
-	 DM_addr,DM_writeData, read_data: out std_logic_vector(63 downto 0);
+	 DM_addr,DM_writeData: out std_logic_vector(63 downto 0);
 	 DM_writeEnable: out std_logic
     ); 
           
@@ -69,7 +69,7 @@ imem_0: entity work.imem
 		addr => IM_addr_s(7 downto 2),
 		q => IM_readData_s
 	);
-	
+
 dmem_0: entity work.dmem 
 	generic map (
 		width => 64)
@@ -82,13 +82,7 @@ dmem_0: entity work.dmem
 			readData => DM_readData_s,
 			dump => dump
 	);
-
-process (clk)
-begin
-	if (rising_edge(clk)) then
-			
-	end if;
-end process;	
+	
 instr <= IM_readData_s;
 DM_addr <= DM_addr_s;
 DM_writeData <= DM_writeData_s;

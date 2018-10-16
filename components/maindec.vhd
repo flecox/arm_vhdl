@@ -11,7 +11,16 @@ architecture behaviour of maindec is
 begin
     process(Op)
     begin
-		if op(10) = '1' and op(7 downto 4) = "0101" and op(2 downto 0) = "000" then
+		if op(10 downto 1) = "1001000100" then
+		          Reg2Loc <= '1';
+                ALUsrc <= '1';
+                MemtoReg <= '0';
+                RegWrite <= '1';
+                MemRead <= '0';
+                MemWrite <= '0';
+                Branch <= '0';
+                AluOp <= "10";
+		elsif op(10) = '1' and op(7 downto 4) = "0101" and op(2 downto 0) = "000" then
                 Reg2Loc <= '0';
                 ALUsrc <= '0';
                 MemtoReg <= '0';
@@ -39,6 +48,15 @@ begin
                 Branch <= '0';
                 AluOp <= "00";
 	 elsif op(10 downto 3) = "10110100" then
+                Reg2Loc <= '1';
+                ALUsrc <= '0';
+                MemtoReg <= '0';
+                RegWrite <= '0';
+                MemRead <= '0';
+                MemWrite <= '0';
+                Branch <= '1';
+                AluOp <= "01";
+	elsif op(10 downto 3) = "10110101" then
                 Reg2Loc <= '1';
                 ALUsrc <= '0';
                 MemtoReg <= '0';

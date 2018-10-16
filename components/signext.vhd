@@ -17,10 +17,13 @@ begin
 	if (a(31 downto 21) = "11111000010" or a(31 downto 21) = "11111000000") then
 		output(8 downto 0) := a(20 downto 12);
 		output(N-1 downto 9) := (others => a(20));
+	elsif (a(31 downto 22) = "1001000100") then
+		output(11 downto 0) := a(21 downto 10);
+		output(N-1 downto 12) := (others => a(21));
 	elsif (a(31 downto 21) = "10001011000" or a(31 downto 21) = "11001011000" or a(31 downto 21) = "10001010000" or a(31 downto 21) = "10101010000") then
 		output(4 downto 0) := a(20 downto 16);
 		output(N-1 downto 4) := (others => a(20));
-	elsif (a(31 downto 24) = "10110100") then
+	elsif (a(31 downto 24) = "10110100" or a(31 downto 24) = "10110101") then
 		output(18 downto 0) := a(23 downto 5);
 		output(N-1 downto 19) := (others => a(23));
 	else

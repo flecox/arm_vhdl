@@ -18,6 +18,8 @@ process (aluop,funct)
             alucontrol  <= "0010";
         elsif (aluop = "01") then	--CBZ
             alucontrol  <= "0111";
+		   elsif( (aluop = "10" or aluop = "11") and funct(10 downto 1) = "1001000100" ) then -- ADD
+            alucontrol<= "0010";
         elsif( (aluop = "10" or aluop = "11") and funct = "10001011000" ) then -- ADD
             alucontrol<= "0010";
         elsif( (aluop = "10" or aluop = "11") and funct = "11001011000" ) then  -- SUB

@@ -27,12 +27,12 @@ signal readData1,readData2, aluResult,writeData_E : std_logic_vector(N-1 downto 
 -- if -> id signals
 signal if_to_id_in, if_to_id_out : std_logic_vector(95 downto 0);
 -- id -> exe signals
-signal reg2loc_e, regWrite_e, AluSrc_e, Branch_e,  memtoReg_e, memRead_e, memWrite_e: std_logic;
+signal reg2loc_e, regWrite_e, AluSrc_e, Branch_e,  memtoReg_e, memRead_e, memWrite_e, is_not_e: std_logic;
 signal AluControl_e : std_logic_vector (3 downto 0);
-signal id_to_exe_in, id_to_exe_out : std_logic_vector(270 downto 0);
+signal id_to_exe_in, id_to_exe_out : std_logic_vector(271 downto 0);
 -- exe -> mem signals
-signal regWrite_m, Branch_m,  memtoReg_m, memRead_m, memWrite_m, zero_m: std_logic;
-signal exe_to_mem_in, exe_to_mem_out : std_logic_vector(202 downto 0);
+signal regWrite_m, Branch_m,  memtoReg_m, memRead_m, memWrite_m, zero_m, is_not_m: std_logic;
+signal exe_to_mem_in, exe_to_mem_out : std_logic_vector(203 downto 0);
 -- mem -> wb signals
 signal regWrite_w, memtoReg_w: std_logic;
 signal mem_to_wb_in, mem_to_wb_out : std_logic_vector(134 downto 0);
@@ -52,7 +52,7 @@ begin
 		PCBranch_F => PCBranch,
 		imem_addr_F => PC
 	);
-
+	
 -- if_id_reg registros if id:
    if_to_id_in(95 downto 32) <= PC;
    if_to_id_in(31 downto 0) <= IM_readData;
@@ -86,8 +86,9 @@ begin
 	id_to_exe_in(265) <= Branch;
 	id_to_exe_in(269 downto 266) <= AluControl;
 	id_to_exe_in(270) <= AluSrc;
+	id_to_exe_in(271) <= if_to_id_out(24); -- bit for cbnz
 	
-   id_exe_reg: entity work.flopr generic map(N => 271) port map(d => id_to_exe_in, clk => clk, reset => reset, q => id_to_exe_out);
+   id_exe_reg: entity work.flopr generic map(N => 272) port map(d => id_to_exe_in, clk => clk, reset => reset, q => id_to_exe_out);
 	
 	memtoReg_e <= id_to_exe_out(261);
 	regWrite_e <= id_to_exe_out(262);
@@ -96,6 +97,7 @@ begin
 	Branch_e <= id_to_exe_out(265);
 	AluControl_e <= id_to_exe_out(269 downto 266);
 	AluSrc_e <= id_to_exe_out(270);
+	is_not_e <= id_to_exe_out(271);
 	
 -- Excecute
   execute_0: entity work.execute
@@ -113,7 +115,6 @@ begin
 			 writeData_E => writeData_E,
 			 zero_E => zero
   );
-
 exe_to_mem_in(4 downto 0) <= id_to_exe_out(4 downto 0);
 exe_to_mem_in(68 downto 5) <= writeData_E;
 exe_to_mem_in(132 downto 69) <= aluResult;
@@ -124,8 +125,9 @@ exe_to_mem_in(199) <= regWrite_e;
 exe_to_mem_in(200) <= memWrite_e;
 exe_to_mem_in(201) <= memRead_e;
 exe_to_mem_in(202) <= Branch_e;
+exe_to_mem_in(203) <= is_not_e;
 
-exe_mem_reg: entity work.flopr generic map(N => 203) port map(d => exe_to_mem_in, clk => clk, reset => reset, q => exe_to_mem_out);
+exe_mem_reg: entity work.flopr generic map(N => 204) port map(d => exe_to_mem_in, clk => clk, reset => reset, q => exe_to_mem_out);
 
 
 memtoReg_m <= exe_to_mem_out(198);
@@ -133,6 +135,7 @@ regWrite_m <= exe_to_mem_out(199);
 memWrite_m <= exe_to_mem_out(200);
 memRead_m <= exe_to_mem_out(201);
 Branch_m <= exe_to_mem_out(202);
+is_not_m <= exe_to_mem_out(203);
 PCBranch <= exe_to_mem_out(197 downto 134);
 zero_m <= exe_to_mem_out(133);
 
@@ -146,6 +149,7 @@ memory_0: entity work.memory
     port map (
          Branch => Branch_m,
          zero => zero_m,
+			isNot => is_not_m,
 			PCSrc => PCSrc
          ); 
 mem_to_wb_in(4 downto 0) <= exe_to_mem_out(4 downto 0);
@@ -169,8 +173,6 @@ writeback_0: entity work.writeback
 			writeData => writeData_D
          );
 
-
 -- Other 
 IM_addr <= PC;
-
 end architecture;

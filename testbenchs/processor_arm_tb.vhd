@@ -34,7 +34,7 @@ begin
 		reset <= '1'; 
 		wait for CLK_PERIOD;
 		reset <= '0'; 
-		wait for CLK_PERIOD*512;
+		wait for CLK_PERIOD*160;
 		finish <= '1';
 		dump <= '1';
 		wait;
