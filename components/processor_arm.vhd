@@ -48,7 +48,6 @@ datapath_0: entity work.datapath
 			DM_readEnable => DM_readEnable_s,
 			instruction_out => instruction_out
 	);
-
 controller_0 : entity work.controller 
 	port map (
         instr => instruction_out(31 downto 21),
@@ -82,6 +81,7 @@ dmem_0: entity work.dmem
 			readData => DM_readData_s,
 			dump => dump
 	);
+
 	
 instr <= IM_readData_s;
 DM_addr <= DM_addr_s;

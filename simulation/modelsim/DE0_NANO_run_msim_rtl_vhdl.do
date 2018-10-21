@@ -5,6 +5,8 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/hdunit.vhd}
+vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopre.vhd}
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/sl2.vhd}
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/signext.vhd}
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/regfile.vhd}
@@ -17,6 +19,7 @@ vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dme
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/aludec.vhd}
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/alu.vhd}
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/adder.vhd}
+vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/clkDiv.vhd}
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/writeback.vhd}
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/fetch.vhd}
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/execute.vhd}
@@ -24,10 +27,11 @@ vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dec
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/controller.vhd}
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/datapath.vhd}
 vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/processor_arm.vhd}
+vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/DE0_NANO_arm.vhd}
 
-vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd}
+vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/DE0_NANO_arm_tb.vhd}
 
-vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  processor_arm_tb
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  DE0_NANO_arm_tb
 
 add wave *
 view structure

@@ -22,9 +22,9 @@ VWddgKZzKON2Dne<KF@LUC3
 !s100 UZal4WY3Gz@8GRklcNL`D2
 Z7 OV;C;10.3c;59
 33
-Z8 !s110 1539710886
+Z8 !s110 1540146745
 !i10b 1
-Z9 !s108 1539710886.645461
+Z9 !s108 1540146745.394830
 Z10 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/adder.vhd|
 Z11 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/adder.vhd|
 !i113 1
@@ -65,7 +65,7 @@ R7
 33
 R8
 !i10b 1
-Z18 !s108 1539710886.536584
+Z18 !s108 1540146745.270009
 Z19 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/alu.vhd|
 Z20 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/alu.vhd|
 !i113 1
@@ -106,7 +106,7 @@ R7
 33
 R8
 !i10b 1
-Z25 !s108 1539710886.402322
+Z25 !s108 1540146745.161397
 Z26 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/aludec.vhd|
 Z27 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/aludec.vhd|
 !i113 1
@@ -131,149 +131,281 @@ R27
 !i113 1
 R12
 R13
-Econtroller
-Z29 w1535667194
+Eclkdiv
+Z29 w1539785082
+R2
 R3
 R4
 R0
-Z30 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/controller.vhd
-Z31 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/controller.vhd
+Z30 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/clkDiv.vhd
+Z31 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/clkDiv.vhd
+l0
+L4
+ViAjN9>O5a6g8DPMZJ9`US0
+!s100 ob5n8@=oK@GfdJ]KYOANa2
+R7
+33
+R8
+!i10b 1
+Z32 !s108 1540146745.503375
+Z33 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/clkDiv.vhd|
+Z34 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/clkDiv.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z35 DEx4 work 6 clkdiv 0 22 iAjN9>O5a6g8DPMZJ9`US0
+l12
+L10
+VPkV:iES4Ea9Pg0]BRU8of1
+!s100 HIG0T<OFM>L6VROf<>bGl1
+R7
+33
+R8
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R12
+R13
+Econtroller
+Z36 w1535667194
+R3
+R4
+R0
+Z37 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/controller.vhd
+Z38 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/controller.vhd
 l0
 L4
 VLbbn@b7LWHl:gW^m8_Gej1
 !s100 ggUH35[mmDWN7balGM0`60
 R7
 33
-Z32 !s110 1539710887
+Z39 !s110 1540146746
 !i10b 1
-Z33 !s108 1539710887.285257
-Z34 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/controller.vhd|
-Z35 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/controller.vhd|
+Z40 !s108 1540146746.069214
+Z41 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/controller.vhd|
+Z42 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/controller.vhd|
 !i113 1
 R12
 R13
 Acont
 R2
 R28
-Z36 DEx4 work 7 maindec 0 22 >iF?ODj[NOgCK1H@e=<;01
+Z43 DEx4 work 7 maindec 0 22 >iF?ODj[NOgCK1H@e=<;01
 R3
 R4
-Z37 DEx4 work 10 controller 0 22 Lbbn@b7LWHl:gW^m8_Gej1
+Z44 DEx4 work 10 controller 0 22 Lbbn@b7LWHl:gW^m8_Gej1
 l17
 L12
 V=ZgXkG7A9[Y6@T0RdC>9d2
 !s100 HA8j7biL4liYDBKj]l>3H0
 R7
 33
-R32
+R39
 !i10b 1
-R33
-R34
-R35
+R40
+R41
+R42
 !i113 1
 R12
 R13
 Edatapath
-Z38 w1539710454
+Z45 w1540144597
 R3
 R4
 R0
-Z39 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/datapath.vhd
-Z40 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/datapath.vhd
+Z46 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/datapath.vhd
+Z47 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/datapath.vhd
 l0
 L6
 VNGm<m[NghLk:NXC0^k8Lo0
 !s100 5jAhE_nIck68lYjUeHeP71
 R7
 33
-R32
+R39
 !i10b 1
-Z41 !s108 1539710887.397835
-Z42 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/datapath.vhd|
-Z43 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/datapath.vhd|
+Z48 !s108 1540146746.174509
+Z49 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/datapath.vhd|
+Z50 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/datapath.vhd|
 !i113 1
 R12
 R13
 Abehav
-Z44 DEx4 work 9 writeback 0 22 JGVDDA<Ucdhb7:593Ho<e2
-Z45 DEx4 work 6 memory 0 22 M4gdPOh@[Jkk4R`gmi1SJ0
-Z46 DEx4 work 7 execute 0 22 9S=VmL0d9WE0Z1OX4PIai0
-Z47 DEx4 work 6 decode 0 22 [b;oW;W8[lJ]C8UUk`_;K3
-Z48 DEx4 work 5 flopr 0 22 z8Gfc[H0IU<V@5KOdfJWD0
-Z49 DEx4 work 5 fetch 0 22 0CTz5lXl3YzJI@bP5o13m3
+Z51 DEx4 work 9 writeback 0 22 JGVDDA<Ucdhb7:593Ho<e2
+Z52 DEx4 work 6 memory 0 22 M4gdPOh@[Jkk4R`gmi1SJ0
+Z53 DEx4 work 7 execute 0 22 9S=VmL0d9WE0Z1OX4PIai0
+Z54 DEx4 work 5 flopr 0 22 z8Gfc[H0IU<V@5KOdfJWD0
+Z55 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z56 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z57 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z58 DEx4 work 4 mux2 0 22 c92hn77XcPE@mdlY^j>0b1
+R2
+Z59 DEx4 work 6 hdunit 0 22 ]Ce^S5DJh3RaHT_3Q3dYi1
+Z60 DEx4 work 6 decode 0 22 RS]g3iGlb@;KJbbgYOoHT1
+Z61 DEx4 work 6 flopre 0 22 hmhM2RMVd6<UlX_aX3=a@2
+Z62 DEx4 work 5 fetch 0 22 ]4cB<1Bz5L=47C6PadNFY3
 R3
 R4
-Z50 DEx4 work 8 datapath 0 22 NGm<m[NghLk:NXC0^k8Lo0
-l42
+Z63 DEx4 work 8 datapath 0 22 NGm<m[NghLk:NXC0^k8Lo0
+l44
 L21
-VXHk8@al=]G=I6^RBDQW]21
-!s100 z;o5dYV:MFQKZR6H71VTA1
+VD7<5<V>h>fI4d_=NO=N=02
+!s100 B]ULCGj8i``9^:mE22zXX2
 R7
 33
-R32
+R39
 !i10b 1
-R41
-R42
-R43
+R48
+R49
+R50
+!i113 1
+R12
+R13
+Ede0_nano_arm
+Z64 w1539719407
+R3
+R4
+R0
+Z65 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/DE0_NANO_arm.vhd
+Z66 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/DE0_NANO_arm.vhd
+l0
+L4
+V65KjDSa`R=RFAzc_MX9^@2
+!s100 4UkGAX1X[a]Lj?b[V`?KS1
+R7
+33
+R39
+!i10b 1
+Z67 !s108 1540146746.447257
+Z68 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/DE0_NANO_arm.vhd|
+Z69 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/DE0_NANO_arm.vhd|
+!i113 1
+R12
+R13
+Aarch
+R35
+R2
+Z70 DEx4 work 13 processor_arm 0 22 IMA>n>1PSC^;:YN:<3fES1
+R3
+R4
+Z71 DEx4 work 12 de0_nano_arm 0 22 65KjDSa`R=RFAzc_MX9^@2
+l21
+L14
+V_UakL8kb;5fHMdAC2ejnU3
+!s100 a9RoN]gD0k8?G_TAM4WJX3
+R7
+33
+R39
+!i10b 1
+R67
+R68
+R69
+!i113 1
+R12
+R13
+Ede0_nano_arm_tb
+Z72 w1539719475
+R2
+R3
+R4
+R0
+Z73 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/DE0_NANO_arm_tb.vhd
+Z74 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/DE0_NANO_arm_tb.vhd
+l0
+L5
+V@9F991?IQbgeK@<c;l9[G3
+!s100 jD?BadB:?X9mRbc_`g=n@0
+R7
+33
+R39
+!i10b 1
+Z75 !s108 1540146746.567476
+Z76 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/DE0_NANO_arm_tb.vhd|
+Z77 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/DE0_NANO_arm_tb.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R71
+R2
+R3
+R4
+DEx4 work 15 de0_nano_arm_tb 0 22 @9F991?IQbgeK@<c;l9[G3
+l17
+L9
+V]D1Mm02aNBzb;Y5XS]h3H2
+!s100 QHmRae:lU>?TG?jZ9=ZnA0
+R7
+33
+R39
+!i10b 1
+R75
+R76
+R77
 !i113 1
 R12
 R13
 Edecode
-Z51 w1538834869
+Z78 w1540122005
 R3
 R4
 R0
-Z52 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/decode.vhd
-Z53 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/decode.vhd
+Z79 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/decode.vhd
+Z80 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/decode.vhd
 l0
 L5
-V[b;oW;W8[lJ]C8UUk`_;K3
-!s100 zUelcS^I4NnT7n^6F=m8h0
+VRS]g3iGlb@;KJbbgYOoHT1
+!s100 jhU4><zCJEMn<58jNei8^2
 R7
 33
-R32
+R8
 !i10b 1
-Z54 !s108 1539710887.161449
-Z55 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/decode.vhd|
-Z56 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/decode.vhd|
+Z81 !s108 1540146745.951962
+Z82 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/decode.vhd|
+Z83 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/decode.vhd|
 !i113 1
 R12
 R13
 Abehav
-Z57 DEx4 work 7 signext 0 22 E[foM0P]NLOdlG@cHX=8c1
+Z84 DEx4 work 7 signext 0 22 E[foM0P]NLOdlG@cHX=8c1
 R2
-Z58 DEx4 work 7 regfile 0 22 1LW;]=H5idY0J]j<nIIaM0
-Z59 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z60 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
-Z61 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z62 DEx4 work 4 mux2 0 22 c92hn77XcPE@mdlY^j>0b1
-R3
-R4
-R47
-l18
-L14
-VMlWIfQl49FC[nD>Z_M8lI3
-!s100 ldO;OBc^2@]Qe<]bBUALU1
-R7
-33
-R32
-!i10b 1
-R54
+Z85 DEx4 work 7 regfile 0 22 1LW;]=H5idY0J]j<nIIaM0
 R55
 R56
+R57
+R58
+R3
+R4
+R60
+l19
+L15
+Vk>ij_fO>_J3Tn8nAJ5O`d3
+!s100 k?]X;V@h?PZ`ESHBDladF1
+R7
+33
+R8
+!i10b 1
+R81
+R82
+R83
 !i113 1
 R12
 R13
 Edmem
-Z63 w1536621960
+Z86 w1536621960
 R2
-R61
-R60
+R57
+R56
 R3
 R4
 R0
-Z64 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dmem.vhd
-Z65 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dmem.vhd
+Z87 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dmem.vhd
+Z88 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dmem.vhd
 l0
 L27
 VcE1z47i[B_ZEL>dEN_X:E3
@@ -282,19 +414,19 @@ R7
 33
 R8
 !i10b 1
-Z66 !s108 1539710886.259957
-Z67 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dmem.vhd|
-Z68 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dmem.vhd|
+Z89 !s108 1540146745.036858
+Z90 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dmem.vhd|
+Z91 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dmem.vhd|
 !i113 1
 R12
 R13
 Abehave
 R2
-R61
-R60
+R57
+R56
 R3
 R4
-Z69 DEx4 work 4 dmem 0 22 cE1z47i[B_ZEL>dEN_X:E3
+Z92 DEx4 work 4 dmem 0 22 cE1z47i[B_ZEL>dEN_X:E3
 l64
 L37
 VPf6d50fKZVFZ3FBdg;c;a1
@@ -303,163 +435,243 @@ R7
 33
 R8
 !i10b 1
-R66
-R67
-R68
+R89
+R90
+R91
 !i113 1
 R12
 R13
 Eexecute
-Z70 w1538920997
+Z93 w1538920997
 R3
 R4
 R0
-Z71 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/execute.vhd
-Z72 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/execute.vhd
+Z94 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/execute.vhd
+Z95 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/execute.vhd
 l0
 L4
 V9S=VmL0d9WE0Z1OX4PIai0
 !s100 WHo6[25f7JB5E7^mReaSU2
 R7
 33
-R32
+R8
 !i10b 1
-Z73 !s108 1539710887.044591
-Z74 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/execute.vhd|
-Z75 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/execute.vhd|
+Z96 !s108 1540146745.833962
+Z97 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/execute.vhd|
+Z98 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/execute.vhd|
 !i113 1
 R12
 R13
 Abehaviour
 R21
-R59
-R60
-R61
-R62
+R55
+R56
+R57
+R58
 R14
 R2
-Z76 DEx4 work 3 sl2 0 22 Y?3X`I<NBkEz17P67:MLJ3
+Z99 DEx4 work 3 sl2 0 22 Y?3X`I<NBkEz17P67:MLJ3
 R3
 R4
-R46
+R53
 l18
 L15
 VkkKa[HS80409UllEQDP;f0
 !s100 2k[0ZL9W>Fc1kRzYhZVa>2
 R7
 33
-R32
+R8
 !i10b 1
-R73
-R74
-R75
+R96
+R97
+R98
 !i113 1
 R12
 R13
 Efetch
-Z77 w1538858285
+Z100 w1540127607
 R3
 R4
 R0
-Z78 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/fetch.vhd
-Z79 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/fetch.vhd
+Z101 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/fetch.vhd
+Z102 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/fetch.vhd
 l0
 L4
-V0CTz5lXl3YzJI@bP5o13m3
-!s100 YE:YG9EJIJ2<AB?]fgR:T3
+V]4cB<1Bz5L=47C6PadNFY3
+!s100 zbdeHi36E6zeDFb31DWBA1
 R7
 33
 R8
 !i10b 1
-Z80 !s108 1539710886.871110
-Z81 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/fetch.vhd|
-Z82 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/fetch.vhd|
+Z103 !s108 1540146745.715979
+Z104 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/fetch.vhd|
+Z105 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/fetch.vhd|
 !i113 1
 R12
 R13
 Abehaviour
-R48
-R59
-R60
 R61
-R62
+R55
+R56
+R57
+R58
 R2
 R14
 R3
 R4
-R49
-l15
+R62
+l16
 L11
-VdnN9d?lYm_2IY5h_6K4nV2
-!s100 dHYDA6PG:HZg7neG5CgWG2
+V=<Rf]0b=jSf034oiC67jC0
+!s100 6HNk6ZniR04NmQ_H]kfV^1
 R7
 33
 R8
 !i10b 1
-R80
-R81
-R82
+R103
+R104
+R105
 !i113 1
 R12
 R13
 Eflopr
-Z83 w1536454278
+Z106 w1536454278
 R3
 R4
 R0
-Z84 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopr.vhd
-Z85 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopr.vhd
+Z107 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopr.vhd
+Z108 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopr.vhd
 l0
 L4
 Vz8Gfc[H0IU<V@5KOdfJWD0
 !s100 ]DT66ZK>7?mSXG:9c3GXa0
 R7
 33
-R8
+Z109 !s110 1540146744
 !i10b 1
-Z86 !s108 1539710886.126091
-Z87 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopr.vhd|
-Z88 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopr.vhd|
+Z110 !s108 1540146744.943754
+Z111 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopr.vhd|
+Z112 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopr.vhd|
 !i113 1
 R12
 R13
 Aflipflop_n
 R3
 R4
-R48
+R54
 l13
 L12
 VoeUSLToSWhTIh>91A8^3a0
 !s100 G:I;hN<73NDZ:bW4a8Rj[2
 R7
 33
-R8
+R109
 !i10b 1
-R86
-R87
-R88
+R110
+R111
+R112
 !i113 1
 R12
 R13
-Eimem
-Z89 w1539710789
+Eflopre
+Z113 w1540059731
+R3
+R4
+R0
+Z114 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopre.vhd
+Z115 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopre.vhd
+l0
+L4
+VhmhM2RMVd6<UlX_aX3=a@2
+!s100 :;dUj37[0kgl:CgWK<ch81
+R7
+33
+R109
+!i10b 1
+Z116 !s108 1540146744.126727
+Z117 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopre.vhd|
+Z118 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopre.vhd|
+!i113 1
+R12
+R13
+Aflipflop_n
+R3
+R4
+R61
+l13
+L12
+Vb6FX9VbF2ono;Qc]XLZo60
+!s100 O<fiOAPPZc43QWNLjK5_E0
+R7
+33
+R109
+!i10b 1
+R116
+R117
+R118
+!i113 1
+R12
+R13
+Ehdunit
+Z119 w1540138849
 R2
 R3
 R4
 R0
-Z90 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/imem.vhd
-Z91 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/imem.vhd
+Z120 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/hdunit.vhd
+Z121 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/hdunit.vhd
+l0
+L5
+V]Ce^S5DJh3RaHT_3Q3dYi1
+!s100 gNScM=Ya:dDLWiAMlgd]z2
+R7
+33
+R109
+!i10b 1
+Z122 !s108 1540146744.006438
+Z123 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/hdunit.vhd|
+Z124 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/hdunit.vhd|
+!i113 1
+R12
+R13
+Ahdunit_arq
+R2
+R3
+R4
+R59
+l15
+L13
+VBI8eNN3i=Xibkik7@zUCI3
+!s100 PkNU7G=i?gQ[<0S>6ogF12
+R7
+33
+R109
+!i10b 1
+R122
+R123
+R124
+!i113 1
+R12
+R13
+Eimem
+Z125 w1540146690
+R2
+R3
+R4
+R0
+Z126 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/imem.vhd
+Z127 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/imem.vhd
 l0
 L8
 VF4eEMVXTTBg7I9LhO9D651
 !s100 R=ATeL2]fh`i_<H^08_Rl1
 R7
 33
-R8
+R109
 !i10b 1
-Z92 !s108 1539710886.018095
-Z93 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/imem.vhd|
-Z94 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/imem.vhd|
+Z128 !s108 1540146744.845886
+Z129 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/imem.vhd|
+Z130 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/imem.vhd|
 !i113 1
 R12
 R13
@@ -467,251 +679,210 @@ Artl
 R2
 R3
 R4
-Z95 DEx4 work 4 imem 0 22 F4eEMVXTTBg7I9LhO9D651
-l45
+Z131 DEx4 work 4 imem 0 22 F4eEMVXTTBg7I9LhO9D651
+l141
 L20
-VC0GC6YIfjQeb>^kJfBKoX3
-!s100 OU^KEBZlWR`RXA`b9J=WC2
+V9aSFdRz25:b60ZLC9S@@53
+!s100 ?T7OzW72j[^6kaH<4biJN1
 R7
 33
-R8
+R109
 !i10b 1
-R92
-R93
-R94
+R128
+R129
+R130
 !i113 1
 R12
 R13
 Emaindec
-Z96 w1539527467
+Z132 w1539527467
 R3
 R4
 R0
-Z97 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/maindec.vhd
-Z98 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/maindec.vhd
+Z133 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/maindec.vhd
+Z134 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/maindec.vhd
 l0
 L4
 V>iF?ODj[NOgCK1H@e=<;01
 !s100 UgNC?9Eac^iR^J>0`2YeF0
 R7
 33
-Z99 !s110 1539710885
+R109
 !i10b 1
-Z100 !s108 1539710885.922548
-Z101 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/maindec.vhd|
-Z102 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/maindec.vhd|
+Z135 !s108 1540146744.755923
+Z136 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/maindec.vhd|
+Z137 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/maindec.vhd|
 !i113 1
 R12
 R13
 Abehaviour
 R3
 R4
-R36
+R43
 l11
 L10
 VH8Fd:IRFXcFPVYcck7NDP0
 !s100 PF4]=@^NHY;cOXYo<fPM<0
 R7
 33
-R99
+R109
 !i10b 1
-R100
-R101
-R102
+R135
+R136
+R137
 !i113 1
 R12
 R13
 Ememory
-Z103 w1539552814
+Z138 w1539787373
 R3
 R4
 R0
-Z104 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/memory.vhd
-Z105 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/memory.vhd
+Z139 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/memory.vhd
+Z140 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/memory.vhd
 l0
 L4
 VM4gdPOh@[Jkk4R`gmi1SJ0
 !s100 _B<n3AQ[Ka4VXaJnP2lH?3
 R7
 33
-R99
+R109
 !i10b 1
-Z106 !s108 1539710885.771094
-Z107 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/memory.vhd|
-Z108 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/memory.vhd|
+Z141 !s108 1540146744.667575
+Z142 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/memory.vhd|
+Z143 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/memory.vhd|
 !i113 1
 R12
 R13
 Abehav
 R3
 R4
-R45
+R52
 l13
 L11
 VX[<1JHk]d`UlS=OXBbc3z2
 !s100 >hRUXb[8?P]VABdVXmmGT1
 R7
 33
-R99
+R109
 !i10b 1
-R106
-R107
-R108
+R141
+R142
+R143
 !i113 1
 R12
 R13
 Emux2
-Z109 w1535740459
-R59
-R60
-R61
+Z144 w1535740459
+R55
+R56
+R57
 R3
 R4
 R0
-Z110 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/mux2.vhd
-Z111 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/mux2.vhd
+Z145 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/mux2.vhd
+Z146 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/mux2.vhd
 l0
 L7
 Vc92hn77XcPE@mdlY^j>0b1
 !s100 Hjb^MzS3Az`5C^P^XiaLH3
 R7
 33
-R99
+R109
 !i10b 1
-Z112 !s108 1539710885.508875
-Z113 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/mux2.vhd|
-Z114 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/mux2.vhd|
+Z147 !s108 1540146744.558968
+Z148 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/mux2.vhd|
+Z149 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/mux2.vhd|
 !i113 1
 R12
 R13
 Asynth
-R59
-R60
-R61
+R55
+R56
+R57
 R3
 R4
-R62
+R58
 l15
 L14
 VdUZ==5ae[45jdg=9Q>F;60
 !s100 BYJ14jTa`P^EViY2P=CbI3
 R7
 33
-R99
+R109
 !i10b 1
-R112
-R113
-R114
+R147
+R148
+R149
 !i113 1
 R12
 R13
 Eprocessor_arm
-Z115 w1539710624
+Z150 w1540144700
 R2
 R3
 R4
 R0
-Z116 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/processor_arm.vhd
-Z117 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/processor_arm.vhd
+Z151 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/processor_arm.vhd
+Z152 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/processor_arm.vhd
 l0
 L7
 VIMA>n>1PSC^;:YN:<3fES1
 !s100 >OfAzdl@ObUNGOKI_cBTd0
 R7
 33
-R32
+R39
 !i10b 1
-Z118 !s108 1539710887.503194
-Z119 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/processor_arm.vhd|
-Z120 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/processor_arm.vhd|
+Z153 !s108 1540146746.312490
+Z154 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/processor_arm.vhd|
+Z155 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/processor_arm.vhd|
 !i113 1
 R12
 R13
 Abehav
-R61
-R60
-R69
-R95
-R37
-R50
+R57
+R56
+R92
+R131
+R44
+R63
 R2
 R3
 R4
-Z121 DEx4 work 13 processor_arm 0 22 IMA>n>1PSC^;:YN:<3fES1
+R70
 l26
 L17
-VR`:aE`gVnN@jD@1dNV_Dm1
-!s100 Oe2d6kOVc[zYka@EWCVIc2
+V^4I?niOLXOFoOdEn6j^H@0
+!s100 oSY0VbO`S3aU2BoQnL`@Y2
 R7
 33
-R32
+R39
 !i10b 1
-R118
-R119
-R120
-!i113 1
-R12
-R13
-Eprocessor_arm_tb
-Z122 w1539710562
-R3
-R4
-R0
-Z123 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd
-Z124 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd
-l0
-L4
-VLZ^0BoLKlZ1E:BMh`PmUl2
-!s100 3igcI>[OTULZFI9^fXakA0
-R7
-33
-R32
-!i10b 1
-Z125 !s108 1539710887.619514
-Z126 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd|
-Z127 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd|
-!i113 1
-R12
-R13
-Abehavior
-R2
-R121
-R3
-R4
-DEx4 work 16 processor_arm_tb 0 22 LZ^0BoLKlZ1E:BMh`PmUl2
-l18
-L7
-Vd<B3I3LzO0Z>J8MZZzSV_3
-!s100 oNE[n2NiVG@^3ZZYmTS?:2
-R7
-33
-R32
-!i10b 1
-R125
-R126
-R127
+R153
+R154
+R155
 !i113 1
 R12
 R13
 Eregfile
-Z128 w1539709979
+Z156 w1539709979
 R2
 R3
 R4
 R0
-Z129 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/regfile.vhd
-Z130 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/regfile.vhd
+Z157 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/regfile.vhd
+Z158 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/regfile.vhd
 l0
 L9
 V1LW;]=H5idY0J]j<nIIaM0
 !s100 @l31QARg>Y4[_z4[R5UR@3
 R7
 33
-R99
+R109
 !i10b 1
-Z131 !s108 1539710885.384784
-Z132 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/regfile.vhd|
-Z133 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/regfile.vhd|
+Z159 !s108 1540146744.456793
+Z160 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/regfile.vhd|
+Z161 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/regfile.vhd|
 !i113 1
 R12
 R13
@@ -719,81 +890,81 @@ Artl
 R2
 R3
 R4
-R58
+R85
 l64
 L19
 V@EABUQ01eJ<NQEVLBi?nF0
 !s100 9IcN:neCmA_8;1k=iRCWS3
 R7
 33
-R99
+R109
 !i10b 1
-R131
-R132
-R133
+R159
+R160
+R161
 !i113 1
 R12
 R13
 Esignext
-Z134 w1539544083
-R61
+Z162 w1539788327
+R57
 R3
 R4
 R0
-Z135 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/signext.vhd
-Z136 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/signext.vhd
+Z163 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/signext.vhd
+Z164 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/signext.vhd
 l0
 L6
 VE[foM0P]NLOdlG@cHX=8c1
 !s100 YKQM7B15bbhHlCUc8^AGT1
 R7
 33
-R99
+R109
 !i10b 1
-Z137 !s108 1539710885.277319
-Z138 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/signext.vhd|
-Z139 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/signext.vhd|
+Z165 !s108 1540146744.351347
+Z166 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/signext.vhd|
+Z167 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/signext.vhd|
 !i113 1
 R12
 R13
 Asynth
-R61
+R57
 R3
 R4
-R57
+R84
 l13
 L12
 VT2K;8d8F_Q7HaIh^aD0ah3
 !s100 ?RXIdo7PKRT]4@6KJj;kU1
 R7
 33
-R99
+R109
 !i10b 1
-R137
-R138
-R139
+R165
+R166
+R167
 !i113 1
 R12
 R13
 Esl2
-Z140 w1534530660
+Z168 w1534530660
 R2
 R3
 R4
 R0
-Z141 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/sl2.vhd
-Z142 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/sl2.vhd
+Z169 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/sl2.vhd
+Z170 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/sl2.vhd
 l0
 L6
 VY?3X`I<NBkEz17P67:MLJ3
 !s100 6jWjW9nBd46Q1^Jj?ozhb1
 R7
 33
-R99
+R109
 !i10b 1
-Z143 !s108 1539710885.127542
-Z144 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/sl2.vhd|
-Z145 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/sl2.vhd|
+Z171 !s108 1540146744.231022
+Z172 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/sl2.vhd|
+Z173 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/sl2.vhd|
 !i113 1
 R12
 R13
@@ -801,28 +972,28 @@ Abehavior
 R2
 R3
 R4
-R76
+R99
 l13
 L12
 V>ID6?YKIn;1KUB]jMEIjZ1
 !s100 ==PKg@z9h[cY5EClOP[Zb2
 R7
 33
-R99
+R109
 !i10b 1
-R143
-R144
-R145
+R171
+R172
+R173
 !i113 1
 R12
 R13
 Ewriteback
-Z146 w1536327747
+Z174 w1536327747
 R3
 R4
 R0
-Z147 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/writeback.vhd
-Z148 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/writeback.vhd
+Z175 8/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/writeback.vhd
+Z176 F/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/writeback.vhd
 l0
 L4
 VJGVDDA<Ucdhb7:593Ho<e2
@@ -831,20 +1002,20 @@ R7
 33
 R8
 !i10b 1
-Z149 !s108 1539710886.736586
-Z150 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/writeback.vhd|
-Z151 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/writeback.vhd|
+Z177 !s108 1540146745.607964
+Z178 !s90 -reportprogress|300|-2008|-work|work|/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/writeback.vhd|
+Z179 !s107 /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/writeback.vhd|
 !i113 1
 R12
 R13
 Abehav
-R59
-R60
-R61
-R62
+R55
+R56
+R57
+R58
 R3
 R4
-R44
+R51
 l14
 L12
 VXhMc_BI3zJc2Y>?@d6Q>i3
@@ -853,9 +1024,9 @@ R7
 33
 R8
 !i10b 1
-R149
-R150
-R151
+R177
+R178
+R179
 !i113 1
 R12
 R13

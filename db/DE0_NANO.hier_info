@@ -1,4 +1,84 @@
-|processor_arm
+|DE0_NANO_arm
+KEY[0] => processor_arm:arm_proc_0.reset
+KEY[0] => clkdiv:clkDiv_0.reset
+KEY[1] => ~NO_FANOUT~
+CLOCK_50 => clkdiv:clkDiv_0.clk
+LED[0] <= led_s[0].DB_MAX_OUTPUT_PORT_TYPE
+LED[1] <= led_s[1].DB_MAX_OUTPUT_PORT_TYPE
+LED[2] <= led_s[2].DB_MAX_OUTPUT_PORT_TYPE
+LED[3] <= led_s[3].DB_MAX_OUTPUT_PORT_TYPE
+LED[4] <= led_s[4].DB_MAX_OUTPUT_PORT_TYPE
+LED[5] <= led_s[5].DB_MAX_OUTPUT_PORT_TYPE
+LED[6] <= led_s[6].DB_MAX_OUTPUT_PORT_TYPE
+LED[7] <= led_s[7].DB_MAX_OUTPUT_PORT_TYPE
+write_data_out[0] <= processor_arm:arm_proc_0.DM_writeData[0]
+write_data_out[1] <= processor_arm:arm_proc_0.DM_writeData[1]
+write_data_out[2] <= processor_arm:arm_proc_0.DM_writeData[2]
+write_data_out[3] <= processor_arm:arm_proc_0.DM_writeData[3]
+write_data_out[4] <= processor_arm:arm_proc_0.DM_writeData[4]
+write_data_out[5] <= processor_arm:arm_proc_0.DM_writeData[5]
+write_data_out[6] <= processor_arm:arm_proc_0.DM_writeData[6]
+write_data_out[7] <= processor_arm:arm_proc_0.DM_writeData[7]
+write_data_out[8] <= processor_arm:arm_proc_0.DM_writeData[8]
+write_data_out[9] <= processor_arm:arm_proc_0.DM_writeData[9]
+write_data_out[10] <= processor_arm:arm_proc_0.DM_writeData[10]
+write_data_out[11] <= processor_arm:arm_proc_0.DM_writeData[11]
+write_data_out[12] <= processor_arm:arm_proc_0.DM_writeData[12]
+write_data_out[13] <= processor_arm:arm_proc_0.DM_writeData[13]
+write_data_out[14] <= processor_arm:arm_proc_0.DM_writeData[14]
+write_data_out[15] <= processor_arm:arm_proc_0.DM_writeData[15]
+write_data_out[16] <= processor_arm:arm_proc_0.DM_writeData[16]
+write_data_out[17] <= processor_arm:arm_proc_0.DM_writeData[17]
+write_data_out[18] <= processor_arm:arm_proc_0.DM_writeData[18]
+write_data_out[19] <= processor_arm:arm_proc_0.DM_writeData[19]
+write_data_out[20] <= processor_arm:arm_proc_0.DM_writeData[20]
+write_data_out[21] <= processor_arm:arm_proc_0.DM_writeData[21]
+write_data_out[22] <= processor_arm:arm_proc_0.DM_writeData[22]
+write_data_out[23] <= processor_arm:arm_proc_0.DM_writeData[23]
+write_data_out[24] <= processor_arm:arm_proc_0.DM_writeData[24]
+write_data_out[25] <= processor_arm:arm_proc_0.DM_writeData[25]
+write_data_out[26] <= processor_arm:arm_proc_0.DM_writeData[26]
+write_data_out[27] <= processor_arm:arm_proc_0.DM_writeData[27]
+write_data_out[28] <= processor_arm:arm_proc_0.DM_writeData[28]
+write_data_out[29] <= processor_arm:arm_proc_0.DM_writeData[29]
+write_data_out[30] <= processor_arm:arm_proc_0.DM_writeData[30]
+write_data_out[31] <= processor_arm:arm_proc_0.DM_writeData[31]
+write_data_out[32] <= processor_arm:arm_proc_0.DM_writeData[32]
+write_data_out[33] <= processor_arm:arm_proc_0.DM_writeData[33]
+write_data_out[34] <= processor_arm:arm_proc_0.DM_writeData[34]
+write_data_out[35] <= processor_arm:arm_proc_0.DM_writeData[35]
+write_data_out[36] <= processor_arm:arm_proc_0.DM_writeData[36]
+write_data_out[37] <= processor_arm:arm_proc_0.DM_writeData[37]
+write_data_out[38] <= processor_arm:arm_proc_0.DM_writeData[38]
+write_data_out[39] <= processor_arm:arm_proc_0.DM_writeData[39]
+write_data_out[40] <= processor_arm:arm_proc_0.DM_writeData[40]
+write_data_out[41] <= processor_arm:arm_proc_0.DM_writeData[41]
+write_data_out[42] <= processor_arm:arm_proc_0.DM_writeData[42]
+write_data_out[43] <= processor_arm:arm_proc_0.DM_writeData[43]
+write_data_out[44] <= processor_arm:arm_proc_0.DM_writeData[44]
+write_data_out[45] <= processor_arm:arm_proc_0.DM_writeData[45]
+write_data_out[46] <= processor_arm:arm_proc_0.DM_writeData[46]
+write_data_out[47] <= processor_arm:arm_proc_0.DM_writeData[47]
+write_data_out[48] <= processor_arm:arm_proc_0.DM_writeData[48]
+write_data_out[49] <= processor_arm:arm_proc_0.DM_writeData[49]
+write_data_out[50] <= processor_arm:arm_proc_0.DM_writeData[50]
+write_data_out[51] <= processor_arm:arm_proc_0.DM_writeData[51]
+write_data_out[52] <= processor_arm:arm_proc_0.DM_writeData[52]
+write_data_out[53] <= processor_arm:arm_proc_0.DM_writeData[53]
+write_data_out[54] <= processor_arm:arm_proc_0.DM_writeData[54]
+write_data_out[55] <= processor_arm:arm_proc_0.DM_writeData[55]
+write_data_out[56] <= processor_arm:arm_proc_0.DM_writeData[56]
+write_data_out[57] <= processor_arm:arm_proc_0.DM_writeData[57]
+write_data_out[58] <= processor_arm:arm_proc_0.DM_writeData[58]
+write_data_out[59] <= processor_arm:arm_proc_0.DM_writeData[59]
+write_data_out[60] <= processor_arm:arm_proc_0.DM_writeData[60]
+write_data_out[61] <= processor_arm:arm_proc_0.DM_writeData[61]
+write_data_out[62] <= processor_arm:arm_proc_0.DM_writeData[62]
+write_data_out[63] <= processor_arm:arm_proc_0.DM_writeData[63]
+dm_write_enable_out <= processor_arm:arm_proc_0.DM_writeEnable
+
+
+|DE0_NANO_arm|processor_arm:arm_proc_0
 clk => datapath:datapath_0.clk
 clk => dmem:dmem_0.clk
 reset => datapath:datapath_0.reset
@@ -134,61 +214,61 @@ DM_writeData[63] <= datapath:datapath_0.DM_writeData[63]
 DM_writeEnable <= datapath:datapath_0.DM_writeEnable
 
 
-|processor_arm|datapath:datapath_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0
 reset => fetch:fetch_0.reset
-reset => flopr:if_id_reg.reset
+reset => flopre:if_id_reg.reset
 reset => flopr:id_exe_reg.reset
 reset => flopr:exe_mem_reg.reset
 reset => flopr:mem_wb_reg.reset
 clk => fetch:fetch_0.clk
-clk => flopr:if_id_reg.clk
+clk => flopre:if_id_reg.clk
 clk => decode:decode_0.clk
 clk => flopr:id_exe_reg.clk
 clk => flopr:exe_mem_reg.clk
 clk => flopr:mem_wb_reg.clk
 reg2loc => decode:decode_0.reg2loc_D
-regWrite => flopr:id_exe_reg.d[262]
-AluSrc => flopr:id_exe_reg.d[270]
-Branch => flopr:id_exe_reg.d[265]
-memtoReg => flopr:id_exe_reg.d[261]
-memRead => flopr:id_exe_reg.d[264]
-memWrite => flopr:id_exe_reg.d[263]
-AluControl[0] => flopr:id_exe_reg.d[266]
-AluControl[1] => flopr:id_exe_reg.d[267]
-AluControl[2] => flopr:id_exe_reg.d[268]
-AluControl[3] => flopr:id_exe_reg.d[269]
-IM_readData[0] => flopr:if_id_reg.d[0]
-IM_readData[1] => flopr:if_id_reg.d[1]
-IM_readData[2] => flopr:if_id_reg.d[2]
-IM_readData[3] => flopr:if_id_reg.d[3]
-IM_readData[4] => flopr:if_id_reg.d[4]
-IM_readData[5] => flopr:if_id_reg.d[5]
-IM_readData[6] => flopr:if_id_reg.d[6]
-IM_readData[7] => flopr:if_id_reg.d[7]
-IM_readData[8] => flopr:if_id_reg.d[8]
-IM_readData[9] => flopr:if_id_reg.d[9]
-IM_readData[10] => flopr:if_id_reg.d[10]
-IM_readData[11] => flopr:if_id_reg.d[11]
-IM_readData[12] => flopr:if_id_reg.d[12]
-IM_readData[13] => flopr:if_id_reg.d[13]
-IM_readData[14] => flopr:if_id_reg.d[14]
-IM_readData[15] => flopr:if_id_reg.d[15]
-IM_readData[16] => flopr:if_id_reg.d[16]
-IM_readData[17] => flopr:if_id_reg.d[17]
-IM_readData[18] => flopr:if_id_reg.d[18]
-IM_readData[19] => flopr:if_id_reg.d[19]
-IM_readData[20] => flopr:if_id_reg.d[20]
-IM_readData[21] => flopr:if_id_reg.d[21]
-IM_readData[22] => flopr:if_id_reg.d[22]
-IM_readData[23] => flopr:if_id_reg.d[23]
-IM_readData[24] => flopr:if_id_reg.d[24]
-IM_readData[25] => flopr:if_id_reg.d[25]
-IM_readData[26] => flopr:if_id_reg.d[26]
-IM_readData[27] => flopr:if_id_reg.d[27]
-IM_readData[28] => flopr:if_id_reg.d[28]
-IM_readData[29] => flopr:if_id_reg.d[29]
-IM_readData[30] => flopr:if_id_reg.d[30]
-IM_readData[31] => flopr:if_id_reg.d[31]
+regWrite => mux2:dut_hazzard_MUX2.d0[1]
+AluSrc => mux2:dut_hazzard_MUX2.d0[9]
+Branch => mux2:dut_hazzard_MUX2.d0[4]
+memtoReg => mux2:dut_hazzard_MUX2.d0[0]
+memRead => mux2:dut_hazzard_MUX2.d0[3]
+memWrite => mux2:dut_hazzard_MUX2.d0[2]
+AluControl[0] => mux2:dut_hazzard_MUX2.d0[5]
+AluControl[1] => mux2:dut_hazzard_MUX2.d0[6]
+AluControl[2] => mux2:dut_hazzard_MUX2.d0[7]
+AluControl[3] => mux2:dut_hazzard_MUX2.d0[8]
+IM_readData[0] => flopre:if_id_reg.d[0]
+IM_readData[1] => flopre:if_id_reg.d[1]
+IM_readData[2] => flopre:if_id_reg.d[2]
+IM_readData[3] => flopre:if_id_reg.d[3]
+IM_readData[4] => flopre:if_id_reg.d[4]
+IM_readData[5] => flopre:if_id_reg.d[5]
+IM_readData[6] => flopre:if_id_reg.d[6]
+IM_readData[7] => flopre:if_id_reg.d[7]
+IM_readData[8] => flopre:if_id_reg.d[8]
+IM_readData[9] => flopre:if_id_reg.d[9]
+IM_readData[10] => flopre:if_id_reg.d[10]
+IM_readData[11] => flopre:if_id_reg.d[11]
+IM_readData[12] => flopre:if_id_reg.d[12]
+IM_readData[13] => flopre:if_id_reg.d[13]
+IM_readData[14] => flopre:if_id_reg.d[14]
+IM_readData[15] => flopre:if_id_reg.d[15]
+IM_readData[16] => flopre:if_id_reg.d[16]
+IM_readData[17] => flopre:if_id_reg.d[17]
+IM_readData[18] => flopre:if_id_reg.d[18]
+IM_readData[19] => flopre:if_id_reg.d[19]
+IM_readData[20] => flopre:if_id_reg.d[20]
+IM_readData[21] => flopre:if_id_reg.d[21]
+IM_readData[22] => flopre:if_id_reg.d[22]
+IM_readData[23] => flopre:if_id_reg.d[23]
+IM_readData[24] => flopre:if_id_reg.d[24]
+IM_readData[25] => flopre:if_id_reg.d[25]
+IM_readData[26] => flopre:if_id_reg.d[26]
+IM_readData[27] => flopre:if_id_reg.d[27]
+IM_readData[28] => flopre:if_id_reg.d[28]
+IM_readData[29] => flopre:if_id_reg.d[29]
+IM_readData[30] => flopre:if_id_reg.d[30]
+IM_readData[31] => flopre:if_id_reg.d[31]
 DM_readData[0] => flopr:mem_wb_reg.d[5]
 DM_readData[1] => flopr:mem_wb_reg.d[6]
 DM_readData[2] => flopr:mem_wb_reg.d[7]
@@ -447,44 +527,45 @@ DM_writeData[62] <= flopr:exe_mem_reg.q[67]
 DM_writeData[63] <= flopr:exe_mem_reg.q[68]
 DM_writeEnable <= flopr:exe_mem_reg.q[200]
 DM_readEnable <= flopr:exe_mem_reg.q[201]
-instruction_out[0] <= flopr:if_id_reg.q[0]
-instruction_out[1] <= flopr:if_id_reg.q[1]
-instruction_out[2] <= flopr:if_id_reg.q[2]
-instruction_out[3] <= flopr:if_id_reg.q[3]
-instruction_out[4] <= flopr:if_id_reg.q[4]
-instruction_out[5] <= flopr:if_id_reg.q[5]
-instruction_out[6] <= flopr:if_id_reg.q[6]
-instruction_out[7] <= flopr:if_id_reg.q[7]
-instruction_out[8] <= flopr:if_id_reg.q[8]
-instruction_out[9] <= flopr:if_id_reg.q[9]
-instruction_out[10] <= flopr:if_id_reg.q[10]
-instruction_out[11] <= flopr:if_id_reg.q[11]
-instruction_out[12] <= flopr:if_id_reg.q[12]
-instruction_out[13] <= flopr:if_id_reg.q[13]
-instruction_out[14] <= flopr:if_id_reg.q[14]
-instruction_out[15] <= flopr:if_id_reg.q[15]
-instruction_out[16] <= flopr:if_id_reg.q[16]
-instruction_out[17] <= flopr:if_id_reg.q[17]
-instruction_out[18] <= flopr:if_id_reg.q[18]
-instruction_out[19] <= flopr:if_id_reg.q[19]
-instruction_out[20] <= flopr:if_id_reg.q[20]
-instruction_out[21] <= flopr:if_id_reg.q[21]
-instruction_out[22] <= flopr:if_id_reg.q[22]
-instruction_out[23] <= flopr:if_id_reg.q[23]
-instruction_out[24] <= flopr:if_id_reg.q[24]
-instruction_out[25] <= flopr:if_id_reg.q[25]
-instruction_out[26] <= flopr:if_id_reg.q[26]
-instruction_out[27] <= flopr:if_id_reg.q[27]
-instruction_out[28] <= flopr:if_id_reg.q[28]
-instruction_out[29] <= flopr:if_id_reg.q[29]
-instruction_out[30] <= flopr:if_id_reg.q[30]
-instruction_out[31] <= flopr:if_id_reg.q[31]
+instruction_out[0] <= flopre:if_id_reg.q[0]
+instruction_out[1] <= flopre:if_id_reg.q[1]
+instruction_out[2] <= flopre:if_id_reg.q[2]
+instruction_out[3] <= flopre:if_id_reg.q[3]
+instruction_out[4] <= flopre:if_id_reg.q[4]
+instruction_out[5] <= flopre:if_id_reg.q[5]
+instruction_out[6] <= flopre:if_id_reg.q[6]
+instruction_out[7] <= flopre:if_id_reg.q[7]
+instruction_out[8] <= flopre:if_id_reg.q[8]
+instruction_out[9] <= flopre:if_id_reg.q[9]
+instruction_out[10] <= flopre:if_id_reg.q[10]
+instruction_out[11] <= flopre:if_id_reg.q[11]
+instruction_out[12] <= flopre:if_id_reg.q[12]
+instruction_out[13] <= flopre:if_id_reg.q[13]
+instruction_out[14] <= flopre:if_id_reg.q[14]
+instruction_out[15] <= flopre:if_id_reg.q[15]
+instruction_out[16] <= flopre:if_id_reg.q[16]
+instruction_out[17] <= flopre:if_id_reg.q[17]
+instruction_out[18] <= flopre:if_id_reg.q[18]
+instruction_out[19] <= flopre:if_id_reg.q[19]
+instruction_out[20] <= flopre:if_id_reg.q[20]
+instruction_out[21] <= flopre:if_id_reg.q[21]
+instruction_out[22] <= flopre:if_id_reg.q[22]
+instruction_out[23] <= flopre:if_id_reg.q[23]
+instruction_out[24] <= flopre:if_id_reg.q[24]
+instruction_out[25] <= flopre:if_id_reg.q[25]
+instruction_out[26] <= flopre:if_id_reg.q[26]
+instruction_out[27] <= flopre:if_id_reg.q[27]
+instruction_out[28] <= flopre:if_id_reg.q[28]
+instruction_out[29] <= flopre:if_id_reg.q[29]
+instruction_out[30] <= flopre:if_id_reg.q[30]
+instruction_out[31] <= flopre:if_id_reg.q[31]
 
 
-|processor_arm|datapath:datapath_0|fetch:fetch_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|fetch:fetch_0
 PCSrc_F => mux2:dut_MUX2.s
-clk => flopr:dut_FLOPR.clk
-reset => flopr:dut_FLOPR.reset
+clk => flopre:dut_FLOPR.clk
+reset => flopre:dut_FLOPR.reset
+PCWrite => flopre:dut_FLOPR.enable
 PCBranch_F[0] => mux2:dut_MUX2.d1[0]
 PCBranch_F[1] => mux2:dut_MUX2.d1[1]
 PCBranch_F[2] => mux2:dut_MUX2.d1[2]
@@ -549,73 +630,73 @@ PCBranch_F[60] => mux2:dut_MUX2.d1[60]
 PCBranch_F[61] => mux2:dut_MUX2.d1[61]
 PCBranch_F[62] => mux2:dut_MUX2.d1[62]
 PCBranch_F[63] => mux2:dut_MUX2.d1[63]
-imem_addr_F[0] <= flopr:dut_FLOPR.q[0]
-imem_addr_F[1] <= flopr:dut_FLOPR.q[1]
-imem_addr_F[2] <= flopr:dut_FLOPR.q[2]
-imem_addr_F[3] <= flopr:dut_FLOPR.q[3]
-imem_addr_F[4] <= flopr:dut_FLOPR.q[4]
-imem_addr_F[5] <= flopr:dut_FLOPR.q[5]
-imem_addr_F[6] <= flopr:dut_FLOPR.q[6]
-imem_addr_F[7] <= flopr:dut_FLOPR.q[7]
-imem_addr_F[8] <= flopr:dut_FLOPR.q[8]
-imem_addr_F[9] <= flopr:dut_FLOPR.q[9]
-imem_addr_F[10] <= flopr:dut_FLOPR.q[10]
-imem_addr_F[11] <= flopr:dut_FLOPR.q[11]
-imem_addr_F[12] <= flopr:dut_FLOPR.q[12]
-imem_addr_F[13] <= flopr:dut_FLOPR.q[13]
-imem_addr_F[14] <= flopr:dut_FLOPR.q[14]
-imem_addr_F[15] <= flopr:dut_FLOPR.q[15]
-imem_addr_F[16] <= flopr:dut_FLOPR.q[16]
-imem_addr_F[17] <= flopr:dut_FLOPR.q[17]
-imem_addr_F[18] <= flopr:dut_FLOPR.q[18]
-imem_addr_F[19] <= flopr:dut_FLOPR.q[19]
-imem_addr_F[20] <= flopr:dut_FLOPR.q[20]
-imem_addr_F[21] <= flopr:dut_FLOPR.q[21]
-imem_addr_F[22] <= flopr:dut_FLOPR.q[22]
-imem_addr_F[23] <= flopr:dut_FLOPR.q[23]
-imem_addr_F[24] <= flopr:dut_FLOPR.q[24]
-imem_addr_F[25] <= flopr:dut_FLOPR.q[25]
-imem_addr_F[26] <= flopr:dut_FLOPR.q[26]
-imem_addr_F[27] <= flopr:dut_FLOPR.q[27]
-imem_addr_F[28] <= flopr:dut_FLOPR.q[28]
-imem_addr_F[29] <= flopr:dut_FLOPR.q[29]
-imem_addr_F[30] <= flopr:dut_FLOPR.q[30]
-imem_addr_F[31] <= flopr:dut_FLOPR.q[31]
-imem_addr_F[32] <= flopr:dut_FLOPR.q[32]
-imem_addr_F[33] <= flopr:dut_FLOPR.q[33]
-imem_addr_F[34] <= flopr:dut_FLOPR.q[34]
-imem_addr_F[35] <= flopr:dut_FLOPR.q[35]
-imem_addr_F[36] <= flopr:dut_FLOPR.q[36]
-imem_addr_F[37] <= flopr:dut_FLOPR.q[37]
-imem_addr_F[38] <= flopr:dut_FLOPR.q[38]
-imem_addr_F[39] <= flopr:dut_FLOPR.q[39]
-imem_addr_F[40] <= flopr:dut_FLOPR.q[40]
-imem_addr_F[41] <= flopr:dut_FLOPR.q[41]
-imem_addr_F[42] <= flopr:dut_FLOPR.q[42]
-imem_addr_F[43] <= flopr:dut_FLOPR.q[43]
-imem_addr_F[44] <= flopr:dut_FLOPR.q[44]
-imem_addr_F[45] <= flopr:dut_FLOPR.q[45]
-imem_addr_F[46] <= flopr:dut_FLOPR.q[46]
-imem_addr_F[47] <= flopr:dut_FLOPR.q[47]
-imem_addr_F[48] <= flopr:dut_FLOPR.q[48]
-imem_addr_F[49] <= flopr:dut_FLOPR.q[49]
-imem_addr_F[50] <= flopr:dut_FLOPR.q[50]
-imem_addr_F[51] <= flopr:dut_FLOPR.q[51]
-imem_addr_F[52] <= flopr:dut_FLOPR.q[52]
-imem_addr_F[53] <= flopr:dut_FLOPR.q[53]
-imem_addr_F[54] <= flopr:dut_FLOPR.q[54]
-imem_addr_F[55] <= flopr:dut_FLOPR.q[55]
-imem_addr_F[56] <= flopr:dut_FLOPR.q[56]
-imem_addr_F[57] <= flopr:dut_FLOPR.q[57]
-imem_addr_F[58] <= flopr:dut_FLOPR.q[58]
-imem_addr_F[59] <= flopr:dut_FLOPR.q[59]
-imem_addr_F[60] <= flopr:dut_FLOPR.q[60]
-imem_addr_F[61] <= flopr:dut_FLOPR.q[61]
-imem_addr_F[62] <= flopr:dut_FLOPR.q[62]
-imem_addr_F[63] <= flopr:dut_FLOPR.q[63]
+imem_addr_F[0] <= flopre:dut_FLOPR.q[0]
+imem_addr_F[1] <= flopre:dut_FLOPR.q[1]
+imem_addr_F[2] <= flopre:dut_FLOPR.q[2]
+imem_addr_F[3] <= flopre:dut_FLOPR.q[3]
+imem_addr_F[4] <= flopre:dut_FLOPR.q[4]
+imem_addr_F[5] <= flopre:dut_FLOPR.q[5]
+imem_addr_F[6] <= flopre:dut_FLOPR.q[6]
+imem_addr_F[7] <= flopre:dut_FLOPR.q[7]
+imem_addr_F[8] <= flopre:dut_FLOPR.q[8]
+imem_addr_F[9] <= flopre:dut_FLOPR.q[9]
+imem_addr_F[10] <= flopre:dut_FLOPR.q[10]
+imem_addr_F[11] <= flopre:dut_FLOPR.q[11]
+imem_addr_F[12] <= flopre:dut_FLOPR.q[12]
+imem_addr_F[13] <= flopre:dut_FLOPR.q[13]
+imem_addr_F[14] <= flopre:dut_FLOPR.q[14]
+imem_addr_F[15] <= flopre:dut_FLOPR.q[15]
+imem_addr_F[16] <= flopre:dut_FLOPR.q[16]
+imem_addr_F[17] <= flopre:dut_FLOPR.q[17]
+imem_addr_F[18] <= flopre:dut_FLOPR.q[18]
+imem_addr_F[19] <= flopre:dut_FLOPR.q[19]
+imem_addr_F[20] <= flopre:dut_FLOPR.q[20]
+imem_addr_F[21] <= flopre:dut_FLOPR.q[21]
+imem_addr_F[22] <= flopre:dut_FLOPR.q[22]
+imem_addr_F[23] <= flopre:dut_FLOPR.q[23]
+imem_addr_F[24] <= flopre:dut_FLOPR.q[24]
+imem_addr_F[25] <= flopre:dut_FLOPR.q[25]
+imem_addr_F[26] <= flopre:dut_FLOPR.q[26]
+imem_addr_F[27] <= flopre:dut_FLOPR.q[27]
+imem_addr_F[28] <= flopre:dut_FLOPR.q[28]
+imem_addr_F[29] <= flopre:dut_FLOPR.q[29]
+imem_addr_F[30] <= flopre:dut_FLOPR.q[30]
+imem_addr_F[31] <= flopre:dut_FLOPR.q[31]
+imem_addr_F[32] <= flopre:dut_FLOPR.q[32]
+imem_addr_F[33] <= flopre:dut_FLOPR.q[33]
+imem_addr_F[34] <= flopre:dut_FLOPR.q[34]
+imem_addr_F[35] <= flopre:dut_FLOPR.q[35]
+imem_addr_F[36] <= flopre:dut_FLOPR.q[36]
+imem_addr_F[37] <= flopre:dut_FLOPR.q[37]
+imem_addr_F[38] <= flopre:dut_FLOPR.q[38]
+imem_addr_F[39] <= flopre:dut_FLOPR.q[39]
+imem_addr_F[40] <= flopre:dut_FLOPR.q[40]
+imem_addr_F[41] <= flopre:dut_FLOPR.q[41]
+imem_addr_F[42] <= flopre:dut_FLOPR.q[42]
+imem_addr_F[43] <= flopre:dut_FLOPR.q[43]
+imem_addr_F[44] <= flopre:dut_FLOPR.q[44]
+imem_addr_F[45] <= flopre:dut_FLOPR.q[45]
+imem_addr_F[46] <= flopre:dut_FLOPR.q[46]
+imem_addr_F[47] <= flopre:dut_FLOPR.q[47]
+imem_addr_F[48] <= flopre:dut_FLOPR.q[48]
+imem_addr_F[49] <= flopre:dut_FLOPR.q[49]
+imem_addr_F[50] <= flopre:dut_FLOPR.q[50]
+imem_addr_F[51] <= flopre:dut_FLOPR.q[51]
+imem_addr_F[52] <= flopre:dut_FLOPR.q[52]
+imem_addr_F[53] <= flopre:dut_FLOPR.q[53]
+imem_addr_F[54] <= flopre:dut_FLOPR.q[54]
+imem_addr_F[55] <= flopre:dut_FLOPR.q[55]
+imem_addr_F[56] <= flopre:dut_FLOPR.q[56]
+imem_addr_F[57] <= flopre:dut_FLOPR.q[57]
+imem_addr_F[58] <= flopre:dut_FLOPR.q[58]
+imem_addr_F[59] <= flopre:dut_FLOPR.q[59]
+imem_addr_F[60] <= flopre:dut_FLOPR.q[60]
+imem_addr_F[61] <= flopre:dut_FLOPR.q[61]
+imem_addr_F[62] <= flopre:dut_FLOPR.q[62]
+imem_addr_F[63] <= flopre:dut_FLOPR.q[63]
 
 
-|processor_arm|datapath:datapath_0|fetch:fetch_0|adder:dut_ADDER
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|fetch:fetch_0|adder:dut_ADDER
 a[0] => Add0.IN64
 a[1] => Add0.IN63
 a[2] => Add0.IN62
@@ -810,7 +891,7 @@ y[62] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 y[63] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|fetch:fetch_0|mux2:dut_MUX2
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|fetch:fetch_0|mux2:dut_MUX2
 d0[0] => y.DATAA
 d0[1] => y.DATAA
 d0[2] => y.DATAA
@@ -1069,7 +1150,7 @@ y[62] <= y.DB_MAX_OUTPUT_PORT_TYPE
 y[63] <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|fetch:fetch_0|flopr:dut_FLOPR
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|fetch:fetch_0|flopre:dut_FLOPR
 d[0] => q[0]~reg0.DATAIN
 d[1] => q[1]~reg0.DATAIN
 d[2] => q[2]~reg0.DATAIN
@@ -1262,6 +1343,70 @@ reset => q[60]~reg0.ACLR
 reset => q[61]~reg0.ACLR
 reset => q[62]~reg0.ACLR
 reset => q[63]~reg0.ACLR
+enable => q[0]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[3]~reg0.ENA
+enable => q[4]~reg0.ENA
+enable => q[5]~reg0.ENA
+enable => q[6]~reg0.ENA
+enable => q[7]~reg0.ENA
+enable => q[8]~reg0.ENA
+enable => q[9]~reg0.ENA
+enable => q[10]~reg0.ENA
+enable => q[11]~reg0.ENA
+enable => q[12]~reg0.ENA
+enable => q[13]~reg0.ENA
+enable => q[14]~reg0.ENA
+enable => q[15]~reg0.ENA
+enable => q[16]~reg0.ENA
+enable => q[17]~reg0.ENA
+enable => q[18]~reg0.ENA
+enable => q[19]~reg0.ENA
+enable => q[20]~reg0.ENA
+enable => q[21]~reg0.ENA
+enable => q[22]~reg0.ENA
+enable => q[23]~reg0.ENA
+enable => q[24]~reg0.ENA
+enable => q[25]~reg0.ENA
+enable => q[26]~reg0.ENA
+enable => q[27]~reg0.ENA
+enable => q[28]~reg0.ENA
+enable => q[29]~reg0.ENA
+enable => q[30]~reg0.ENA
+enable => q[31]~reg0.ENA
+enable => q[32]~reg0.ENA
+enable => q[33]~reg0.ENA
+enable => q[34]~reg0.ENA
+enable => q[35]~reg0.ENA
+enable => q[36]~reg0.ENA
+enable => q[37]~reg0.ENA
+enable => q[38]~reg0.ENA
+enable => q[39]~reg0.ENA
+enable => q[40]~reg0.ENA
+enable => q[41]~reg0.ENA
+enable => q[42]~reg0.ENA
+enable => q[43]~reg0.ENA
+enable => q[44]~reg0.ENA
+enable => q[45]~reg0.ENA
+enable => q[46]~reg0.ENA
+enable => q[47]~reg0.ENA
+enable => q[48]~reg0.ENA
+enable => q[49]~reg0.ENA
+enable => q[50]~reg0.ENA
+enable => q[51]~reg0.ENA
+enable => q[52]~reg0.ENA
+enable => q[53]~reg0.ENA
+enable => q[54]~reg0.ENA
+enable => q[55]~reg0.ENA
+enable => q[56]~reg0.ENA
+enable => q[57]~reg0.ENA
+enable => q[58]~reg0.ENA
+enable => q[59]~reg0.ENA
+enable => q[60]~reg0.ENA
+enable => q[61]~reg0.ENA
+enable => q[62]~reg0.ENA
+enable => q[63]~reg0.ENA
 q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -1328,7 +1473,7 @@ q[62] <= q[62]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 q[63] <= q[63]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|flopr:if_id_reg
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|flopre:if_id_reg
 d[0] => q[0]~reg0.DATAIN
 d[1] => q[1]~reg0.DATAIN
 d[2] => q[2]~reg0.DATAIN
@@ -1617,6 +1762,102 @@ reset => q[92]~reg0.ACLR
 reset => q[93]~reg0.ACLR
 reset => q[94]~reg0.ACLR
 reset => q[95]~reg0.ACLR
+enable => q[0]~reg0.ENA
+enable => q[1]~reg0.ENA
+enable => q[2]~reg0.ENA
+enable => q[3]~reg0.ENA
+enable => q[4]~reg0.ENA
+enable => q[5]~reg0.ENA
+enable => q[6]~reg0.ENA
+enable => q[7]~reg0.ENA
+enable => q[8]~reg0.ENA
+enable => q[9]~reg0.ENA
+enable => q[10]~reg0.ENA
+enable => q[11]~reg0.ENA
+enable => q[12]~reg0.ENA
+enable => q[13]~reg0.ENA
+enable => q[14]~reg0.ENA
+enable => q[15]~reg0.ENA
+enable => q[16]~reg0.ENA
+enable => q[17]~reg0.ENA
+enable => q[18]~reg0.ENA
+enable => q[19]~reg0.ENA
+enable => q[20]~reg0.ENA
+enable => q[21]~reg0.ENA
+enable => q[22]~reg0.ENA
+enable => q[23]~reg0.ENA
+enable => q[24]~reg0.ENA
+enable => q[25]~reg0.ENA
+enable => q[26]~reg0.ENA
+enable => q[27]~reg0.ENA
+enable => q[28]~reg0.ENA
+enable => q[29]~reg0.ENA
+enable => q[30]~reg0.ENA
+enable => q[31]~reg0.ENA
+enable => q[32]~reg0.ENA
+enable => q[33]~reg0.ENA
+enable => q[34]~reg0.ENA
+enable => q[35]~reg0.ENA
+enable => q[36]~reg0.ENA
+enable => q[37]~reg0.ENA
+enable => q[38]~reg0.ENA
+enable => q[39]~reg0.ENA
+enable => q[40]~reg0.ENA
+enable => q[41]~reg0.ENA
+enable => q[42]~reg0.ENA
+enable => q[43]~reg0.ENA
+enable => q[44]~reg0.ENA
+enable => q[45]~reg0.ENA
+enable => q[46]~reg0.ENA
+enable => q[47]~reg0.ENA
+enable => q[48]~reg0.ENA
+enable => q[49]~reg0.ENA
+enable => q[50]~reg0.ENA
+enable => q[51]~reg0.ENA
+enable => q[52]~reg0.ENA
+enable => q[53]~reg0.ENA
+enable => q[54]~reg0.ENA
+enable => q[55]~reg0.ENA
+enable => q[56]~reg0.ENA
+enable => q[57]~reg0.ENA
+enable => q[58]~reg0.ENA
+enable => q[59]~reg0.ENA
+enable => q[60]~reg0.ENA
+enable => q[61]~reg0.ENA
+enable => q[62]~reg0.ENA
+enable => q[63]~reg0.ENA
+enable => q[64]~reg0.ENA
+enable => q[65]~reg0.ENA
+enable => q[66]~reg0.ENA
+enable => q[67]~reg0.ENA
+enable => q[68]~reg0.ENA
+enable => q[69]~reg0.ENA
+enable => q[70]~reg0.ENA
+enable => q[71]~reg0.ENA
+enable => q[72]~reg0.ENA
+enable => q[73]~reg0.ENA
+enable => q[74]~reg0.ENA
+enable => q[75]~reg0.ENA
+enable => q[76]~reg0.ENA
+enable => q[77]~reg0.ENA
+enable => q[78]~reg0.ENA
+enable => q[79]~reg0.ENA
+enable => q[80]~reg0.ENA
+enable => q[81]~reg0.ENA
+enable => q[82]~reg0.ENA
+enable => q[83]~reg0.ENA
+enable => q[84]~reg0.ENA
+enable => q[85]~reg0.ENA
+enable => q[86]~reg0.ENA
+enable => q[87]~reg0.ENA
+enable => q[88]~reg0.ENA
+enable => q[89]~reg0.ENA
+enable => q[90]~reg0.ENA
+enable => q[91]~reg0.ENA
+enable => q[92]~reg0.ENA
+enable => q[93]~reg0.ENA
+enable => q[94]~reg0.ENA
+enable => q[95]~reg0.ENA
 q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -1715,7 +1956,7 @@ q[94] <= q[94]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 q[95] <= q[95]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|decode:decode_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|decode:decode_0
 regWrite_D => regfile:regfile_0.we3
 reg2loc_D => mux2:mux2_0.s
 clk => regfile:regfile_0.clk
@@ -1835,6 +2076,11 @@ instr_D[28] => signext:signext_0.a[28]
 instr_D[29] => signext:signext_0.a[29]
 instr_D[30] => signext:signext_0.a[30]
 instr_D[31] => signext:signext_0.a[31]
+rm_reg[0] <= mux2:mux2_0.y[0]
+rm_reg[1] <= mux2:mux2_0.y[1]
+rm_reg[2] <= mux2:mux2_0.y[2]
+rm_reg[3] <= mux2:mux2_0.y[3]
+rm_reg[4] <= mux2:mux2_0.y[4]
 signImm_D[0] <= signext:signext_0.y[0]
 signImm_D[1] <= signext:signext_0.y[1]
 signImm_D[2] <= signext:signext_0.y[2]
@@ -2029,7 +2275,7 @@ readData2_D[62] <= regfile:regfile_0.rd2[62]
 readData2_D[63] <= regfile:regfile_0.rd2[63]
 
 
-|processor_arm|datapath:datapath_0|decode:decode_0|mux2:mux2_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|decode:decode_0|mux2:mux2_0
 d0[0] => y.DATAA
 d0[1] => y.DATAA
 d0[2] => y.DATAA
@@ -2052,7 +2298,7 @@ y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
 y[4] <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|decode:decode_0|regfile:regfile_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|decode:decode_0|regfile:regfile_0
 clk => rom~69.CLK
 clk => rom~0.CLK
 clk => rom~1.CLK
@@ -2558,7 +2804,7 @@ rd2[62] <= rd2.DB_MAX_OUTPUT_PORT_TYPE
 rd2[63] <= rd2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|decode:decode_0|signext:signext_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|decode:decode_0|signext:signext_0
 a[0] => ~NO_FANOUT~
 a[1] => ~NO_FANOUT~
 a[2] => ~NO_FANOUT~
@@ -2843,7 +3089,111 @@ y[62] <= output.DB_MAX_OUTPUT_PORT_TYPE
 y[63] <= output.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|flopr:id_exe_reg
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|hdunit:dut_hazzard_det
+id_to_exe_out_register_rd[0] => Equal1.IN4
+id_to_exe_out_register_rd[0] => Equal2.IN4
+id_to_exe_out_register_rd[0] => Equal0.IN4
+id_to_exe_out_register_rd[1] => Equal1.IN3
+id_to_exe_out_register_rd[1] => Equal2.IN3
+id_to_exe_out_register_rd[1] => Equal0.IN3
+id_to_exe_out_register_rd[2] => Equal1.IN2
+id_to_exe_out_register_rd[2] => Equal2.IN2
+id_to_exe_out_register_rd[2] => Equal0.IN2
+id_to_exe_out_register_rd[3] => Equal1.IN1
+id_to_exe_out_register_rd[3] => Equal2.IN1
+id_to_exe_out_register_rd[3] => Equal0.IN1
+id_to_exe_out_register_rd[4] => Equal1.IN0
+id_to_exe_out_register_rd[4] => Equal2.IN0
+id_to_exe_out_register_rd[4] => Equal0.IN0
+exe_to_mem_out_register_rd[0] => Equal4.IN4
+exe_to_mem_out_register_rd[0] => Equal5.IN4
+exe_to_mem_out_register_rd[0] => Equal3.IN4
+exe_to_mem_out_register_rd[1] => Equal4.IN3
+exe_to_mem_out_register_rd[1] => Equal5.IN3
+exe_to_mem_out_register_rd[1] => Equal3.IN3
+exe_to_mem_out_register_rd[2] => Equal4.IN2
+exe_to_mem_out_register_rd[2] => Equal5.IN2
+exe_to_mem_out_register_rd[2] => Equal3.IN2
+exe_to_mem_out_register_rd[3] => Equal4.IN1
+exe_to_mem_out_register_rd[3] => Equal5.IN1
+exe_to_mem_out_register_rd[3] => Equal3.IN1
+exe_to_mem_out_register_rd[4] => Equal4.IN0
+exe_to_mem_out_register_rd[4] => Equal5.IN0
+exe_to_mem_out_register_rd[4] => Equal3.IN0
+if_to_id_out_register_rn[0] => Equal1.IN9
+if_to_id_out_register_rn[0] => Equal4.IN9
+if_to_id_out_register_rn[1] => Equal1.IN8
+if_to_id_out_register_rn[1] => Equal4.IN8
+if_to_id_out_register_rn[2] => Equal1.IN7
+if_to_id_out_register_rn[2] => Equal4.IN7
+if_to_id_out_register_rn[3] => Equal1.IN6
+if_to_id_out_register_rn[3] => Equal4.IN6
+if_to_id_out_register_rn[4] => Equal1.IN5
+if_to_id_out_register_rn[4] => Equal4.IN5
+if_to_id_out_register_rm[0] => Equal2.IN9
+if_to_id_out_register_rm[0] => Equal5.IN9
+if_to_id_out_register_rm[1] => Equal2.IN8
+if_to_id_out_register_rm[1] => Equal5.IN8
+if_to_id_out_register_rm[2] => Equal2.IN7
+if_to_id_out_register_rm[2] => Equal5.IN7
+if_to_id_out_register_rm[3] => Equal2.IN6
+if_to_id_out_register_rm[3] => Equal5.IN6
+if_to_id_out_register_rm[4] => Equal2.IN5
+if_to_id_out_register_rm[4] => Equal5.IN5
+id_to_exe_out_mem_read => mem_mem_reg_hazard.IN1
+id_to_exe_out_reg_write => ex_reg_reg_hazzard.IN1
+exe_to_mem_out_reg_write => mem_reg_reg_hazard.IN1
+stall <= stall.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|mux2:dut_hazzard_MUX2
+d0[0] => y.DATAA
+d0[1] => y.DATAA
+d0[2] => y.DATAA
+d0[3] => y.DATAA
+d0[4] => y.DATAA
+d0[5] => y.DATAA
+d0[6] => y.DATAA
+d0[7] => y.DATAA
+d0[8] => y.DATAA
+d0[9] => y.DATAA
+d0[10] => y.DATAA
+d1[0] => y.DATAB
+d1[1] => y.DATAB
+d1[2] => y.DATAB
+d1[3] => y.DATAB
+d1[4] => y.DATAB
+d1[5] => y.DATAB
+d1[6] => y.DATAB
+d1[7] => y.DATAB
+d1[8] => y.DATAB
+d1[9] => y.DATAB
+d1[10] => y.DATAB
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[8] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[9] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[10] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|flopr:id_exe_reg
 d[0] => q[0]~reg0.DATAIN
 d[1] => q[1]~reg0.DATAIN
 d[2] => q[2]~reg0.DATAIN
@@ -3934,7 +4284,7 @@ q[270] <= q[270]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 q[271] <= q[271]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|execute:execute_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|execute:execute_0
 aluSrc => mux2:dut_MUX2.s
 aluControl[0] => alu:dut_ALU.alucontrol[0]
 aluControl[1] => alu:dut_ALU.alucontrol[1]
@@ -4519,7 +4869,7 @@ writeData_E[63] <= readData2_E[63].DB_MAX_OUTPUT_PORT_TYPE
 zero_E <= alu:dut_ALU.zero
 
 
-|processor_arm|datapath:datapath_0|execute:execute_0|sl2:dut_SL2
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|execute:execute_0|sl2:dut_SL2
 a[0] => y[2].DATAIN
 a[1] => y[3].DATAIN
 a[2] => y[4].DATAIN
@@ -4650,7 +5000,7 @@ y[62] <= a[60].DB_MAX_OUTPUT_PORT_TYPE
 y[63] <= a[61].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|execute:execute_0|adder:dut_ADDER
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|execute:execute_0|adder:dut_ADDER
 a[0] => Add0.IN64
 a[1] => Add0.IN63
 a[2] => Add0.IN62
@@ -4845,7 +5195,7 @@ y[62] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 y[63] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|execute:execute_0|mux2:dut_MUX2
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|execute:execute_0|mux2:dut_MUX2
 d0[0] => y.DATAA
 d0[1] => y.DATAA
 d0[2] => y.DATAA
@@ -5104,7 +5454,7 @@ y[62] <= y.DB_MAX_OUTPUT_PORT_TYPE
 y[63] <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|execute:execute_0|alu:dut_ALU
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|execute:execute_0|alu:dut_ALU
 a[0] => res.IN0
 a[0] => res.IN0
 a[0] => Add0.IN64
@@ -6772,7 +7122,7 @@ result[63] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 zero <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|flopr:exe_mem_reg
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|flopr:exe_mem_reg
 d[0] => q[0]~reg0.DATAIN
 d[1] => q[1]~reg0.DATAIN
 d[2] => q[2]~reg0.DATAIN
@@ -7591,7 +7941,7 @@ q[202] <= q[202]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 q[203] <= q[203]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|memory:memory_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|memory:memory_0
 Branch => PCSrc.IN1
 zero => PCSrc.IN0
 zero => PCSrc.IN0
@@ -7600,7 +7950,7 @@ isNot => PCSrc.IN1
 PCSrc <= PCSrc.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|flopr:mem_wb_reg
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|flopr:mem_wb_reg
 d[0] => q[0]~reg0.DATAIN
 d[1] => q[1]~reg0.DATAIN
 d[2] => q[2]~reg0.DATAIN
@@ -8143,7 +8493,7 @@ q[133] <= q[133]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 q[134] <= q[134]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|datapath:datapath_0|writeback:writeback_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|writeback:writeback_0
 aluResult[0] => mux2:mux2_4.d0[0]
 aluResult[1] => mux2:mux2_4.d0[1]
 aluResult[2] => mux2:mux2_4.d0[2]
@@ -8339,7 +8689,7 @@ writeData[62] <= mux2:mux2_4.y[62]
 writeData[63] <= mux2:mux2_4.y[63]
 
 
-|processor_arm|datapath:datapath_0|writeback:writeback_0|mux2:mux2_4
+|DE0_NANO_arm|processor_arm:arm_proc_0|datapath:datapath_0|writeback:writeback_0|mux2:mux2_4
 d0[0] => y.DATAA
 d0[1] => y.DATAA
 d0[2] => y.DATAA
@@ -8598,7 +8948,7 @@ y[62] <= y.DB_MAX_OUTPUT_PORT_TYPE
 y[63] <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|controller:controller_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|controller:controller_0
 instr[0] => maindec:maindec_0.Op[0]
 instr[0] => aludec:aludec_0.funct[0]
 instr[1] => maindec:maindec_0.Op[1]
@@ -8634,7 +8984,7 @@ memRead <= maindec:maindec_0.MemRead
 memWrite <= maindec:maindec_0.MemWrite
 
 
-|processor_arm|controller:controller_0|maindec:maindec_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|controller:controller_0|maindec:maindec_0
 Op[0] => Equal2.IN2
 Op[0] => Equal3.IN4
 Op[0] => Equal4.IN5
@@ -8686,7 +9036,7 @@ AluOp[0] <= AluOp.DB_MAX_OUTPUT_PORT_TYPE
 AluOp[1] <= AluOp.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|controller:controller_0|aludec:aludec_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|controller:controller_0|aludec:aludec_0
 funct[0] => Equal3.IN6
 funct[0] => Equal4.IN5
 funct[0] => Equal5.IN7
@@ -8755,7 +9105,7 @@ alucontrol[2] <= alucontrol.DB_MAX_OUTPUT_PORT_TYPE
 alucontrol[3] <= alucontrol.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|processor_arm|imem:imem_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|imem:imem_0
 addr[0] => rom.RADDR
 addr[1] => rom.RADDR1
 addr[2] => rom.RADDR2
@@ -8796,7 +9146,7 @@ q[30] <= rom.DATAOUT30
 q[31] <= rom.DATAOUT31
 
 
-|processor_arm|dmem:dmem_0
+|DE0_NANO_arm|processor_arm:arm_proc_0|dmem:dmem_0
 clk => mem[0][0].CLK
 clk => mem[0][1].CLK
 clk => mem[0][2].CLK
@@ -21604,5 +21954,51 @@ readData[61] <= readData.DB_MAX_OUTPUT_PORT_TYPE
 readData[62] <= readData.DB_MAX_OUTPUT_PORT_TYPE
 readData[63] <= readData.DB_MAX_OUTPUT_PORT_TYPE
 dump => ~NO_FANOUT~
+
+
+|DE0_NANO_arm|clkDiv:clkDiv_0
+clk => clk_divider[0].CLK
+clk => clk_divider[1].CLK
+clk => clk_divider[2].CLK
+clk => clk_divider[3].CLK
+clk => clk_divider[4].CLK
+clk => clk_divider[5].CLK
+clk => clk_divider[6].CLK
+clk => clk_divider[7].CLK
+clk => clk_divider[8].CLK
+clk => clk_divider[9].CLK
+clk => clk_divider[10].CLK
+clk => clk_divider[11].CLK
+clk => clk_divider[12].CLK
+clk => clk_divider[13].CLK
+clk => clk_divider[14].CLK
+clk => clk_divider[15].CLK
+clk => clk_divider[16].CLK
+clk => clk_divider[17].CLK
+clk => clk_divider[18].CLK
+clk => clk_divider[19].CLK
+clk => clk_divider[20].CLK
+reset => clk_divider[0].ACLR
+reset => clk_divider[1].ACLR
+reset => clk_divider[2].ACLR
+reset => clk_divider[3].ACLR
+reset => clk_divider[4].ACLR
+reset => clk_divider[5].ACLR
+reset => clk_divider[6].ACLR
+reset => clk_divider[7].ACLR
+reset => clk_divider[8].ACLR
+reset => clk_divider[9].ACLR
+reset => clk_divider[10].ACLR
+reset => clk_divider[11].ACLR
+reset => clk_divider[12].ACLR
+reset => clk_divider[13].ACLR
+reset => clk_divider[14].ACLR
+reset => clk_divider[15].ACLR
+reset => clk_divider[16].ACLR
+reset => clk_divider[17].ACLR
+reset => clk_divider[18].ACLR
+reset => clk_divider[19].ACLR
+reset => clk_divider[20].ACLR
+clkDiv <= clk_divider[20].DB_MAX_OUTPUT_PORT_TYPE
 
 

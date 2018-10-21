@@ -21,12 +21,14 @@ end entity;
 architecture behav of datapath is
 
 --- Signals
-signal PCSrc, zero: std_logic;
+signal PCSrc, zero, PCWrite, stall: std_logic;
+signal rm_reg: std_logic_vector(4 downto 0);
 signal PCBranch, PCBranch_E,writeData_D,PC, DM_readData_s, signImm : std_logic_vector(N-1 downto 0);
 signal readData1,readData2, aluResult,writeData_E : std_logic_vector(N-1 downto 0);
 -- if -> id signals
 signal if_to_id_in, if_to_id_out : std_logic_vector(95 downto 0);
 -- id -> exe signals
+signal id_flags_mux_in, id_flags_mux_out: std_logic_vector(10 downto 0);
 signal reg2loc_e, regWrite_e, AluSrc_e, Branch_e,  memtoReg_e, memRead_e, memWrite_e, is_not_e: std_logic;
 signal AluControl_e : std_logic_vector (3 downto 0);
 signal id_to_exe_in, id_to_exe_out : std_logic_vector(271 downto 0);
@@ -47,6 +49,7 @@ begin
 		N => N)
 	port map (
 		PCSrc_F => PCSrc,
+		PCWrite => PCWrite,
 		clk => clk,
 		reset => reset,
 		PCBranch_F => PCBranch,
@@ -56,7 +59,7 @@ begin
 -- if_id_reg registros if id:
    if_to_id_in(95 downto 32) <= PC;
    if_to_id_in(31 downto 0) <= IM_readData;
-   if_id_reg: entity work.flopr generic map(N => 96) port map(d => if_to_id_in, clk => clk, reset => reset, q => if_to_id_out);
+   if_id_reg: entity work.flopre generic map(N => 96) port map(d => if_to_id_in, clk => clk, reset => reset, enable => PCWrite,q => if_to_id_out);
 	instruction_out <= if_to_id_out(31 downto 0);
 -- Decode Inst
 	decode_0: entity work.decode 
@@ -71,23 +74,38 @@ begin
 		instr_D => if_to_id_out(31 downto 0),
 		signImm_D => signImm,
 		readData1_D => readData1,
-		readData2_D => readData2	
+		readData2_D => readData2,
+		rm_reg => rm_reg
 	);
--- id_exe_reg registros if id:
+	
+	id_flags_mux_in(0) <= memtoReg;
+	id_flags_mux_in(1) <= regWrite;
+	id_flags_mux_in(2) <= memWrite;
+	id_flags_mux_in(3) <= memRead;
+	id_flags_mux_in(4) <= Branch;
+	id_flags_mux_in(8 downto 5) <= AluControl;
+	id_flags_mux_in(9) <= AluSrc;
+	id_flags_mux_in(10) <= if_to_id_out(24); -- bit for cbnz
+	
+	dut_hazzard_det: entity work.hdunit port map(
+		id_to_exe_out_mem_read => memRead_e, 
+		id_to_exe_out_reg_write => regWrite_e,
+		exe_to_mem_out_reg_write => regWrite_m,
+		id_to_exe_out_register_rd => id_to_exe_out(4 downto 0),
+		exe_to_mem_out_register_rd => exe_to_mem_out(4 downto 0),
+		if_to_id_out_register_rm => rm_reg,
+		if_to_id_out_register_rn => if_to_id_out(9 downto 5),
+		stall => stall);
+	PCWrite <= not stall;
+	dut_hazzard_MUX2: entity work.MUX2 generic map(N => 11) port map(d0 => id_flags_mux_in, d1 => "00000000000", s => stall, y => id_flags_mux_out);
+	
+	-- id_exe_reg registros if id:
    id_to_exe_in(4 downto 0) <= if_to_id_out(4 downto 0);
    id_to_exe_in(68 downto 5) <= readData2;
    id_to_exe_in(132 downto 69) <= readData1;
    id_to_exe_in(196 downto 133) <= signImm;
    id_to_exe_in(260 downto 197) <= if_to_id_out(95 downto 32);
-	id_to_exe_in(261) <= memtoReg;
-	id_to_exe_in(262) <= regWrite;
-	id_to_exe_in(263) <= memWrite;
-	id_to_exe_in(264) <= memRead;
-	id_to_exe_in(265) <= Branch;
-	id_to_exe_in(269 downto 266) <= AluControl;
-	id_to_exe_in(270) <= AluSrc;
-	id_to_exe_in(271) <= if_to_id_out(24); -- bit for cbnz
-	
+	id_to_exe_in(271 downto 261) <= id_flags_mux_out;
    id_exe_reg: entity work.flopr generic map(N => 272) port map(d => id_to_exe_in, clk => clk, reset => reset, q => id_to_exe_out);
 	
 	memtoReg_e <= id_to_exe_out(261);

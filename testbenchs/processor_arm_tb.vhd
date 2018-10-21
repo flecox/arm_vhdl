@@ -12,7 +12,9 @@ constant CLK_PERIOD : time := 20 ns;
 signal clk,finish, dump : std_logic:= '0';
 signal reset		: std_logic:= '1';
 signal DM_addr, DM_writeData: std_logic_vector (63 downto 0);
-signal DM_writeEnable: std_logic;
+signal DM_writeEnable, stall_out, reg_write_etapa: std_logic;
+signal instruction_out_p: std_logic_vector(31 downto 0);
+signal id_to_exe_out_register_rd, if_to_id_out_register_rn, if_to_id_out_register_rm: std_logic_vector(4 downto 0);
 -- Output Signals
 signal led : std_logic_vector (7 downto 0);
 begin
@@ -34,7 +36,7 @@ begin
 		reset <= '1'; 
 		wait for CLK_PERIOD;
 		reset <= '0'; 
-		wait for CLK_PERIOD*160;
+		wait for CLK_PERIOD*64;
 		finish <= '1';
 		dump <= '1';
 		wait;

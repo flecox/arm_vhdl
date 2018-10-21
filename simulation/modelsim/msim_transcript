@@ -11,9 +11,32 @@
 # ** Warning: Copied /home/flecox/altera/14.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
+# vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/hdunit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:32:23 on Oct 21,2018
+# vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/hdunit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity hdunit
+# -- Compiling architecture hdunit_arq of hdunit
+# End time: 15:32:24 on Oct 21,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopre.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:32:24 on Oct 21,2018
+# vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopre.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flopre
+# -- Compiling architecture flipflop_n of flopre
+# End time: 15:32:24 on Oct 21,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/sl2.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:05 on Oct 16,2018
+# Start time: 15:32:24 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/sl2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -21,11 +44,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity sl2
 # -- Compiling architecture Behavior of sl2
-# End time: 14:28:05 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:24 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/signext.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:05 on Oct 16,2018
+# Start time: 15:32:24 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/signext.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -33,11 +56,11 @@
 # -- Loading package std_logic_arith
 # -- Compiling entity signext
 # -- Compiling architecture synth of signext
-# End time: 14:28:05 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:24 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/regfile.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:05 on Oct 16,2018
+# Start time: 15:32:24 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/regfile.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -45,11 +68,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity regfile
 # -- Compiling architecture rtl of regfile
-# End time: 14:28:05 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:24 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/mux2.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:05 on Oct 16,2018
+# Start time: 15:32:24 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/mux2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -59,33 +82,33 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity mux2
 # -- Compiling architecture synth of mux2
-# End time: 14:28:05 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:24 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/memory.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:05 on Oct 16,2018
+# Start time: 15:32:24 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/memory.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity memory
 # -- Compiling architecture behav of memory
-# End time: 14:28:05 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:24 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/maindec.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:05 on Oct 16,2018
+# Start time: 15:32:24 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/maindec.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity maindec
 # -- Compiling architecture behaviour of maindec
-# End time: 14:28:05 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:24 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/imem.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:05 on Oct 16,2018
+# Start time: 15:32:24 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/imem.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -93,22 +116,22 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity imem
 # -- Compiling architecture rtl of imem
-# End time: 14:28:06 on Oct 16,2018, Elapsed time: 0:00:01
+# End time: 15:32:24 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopr.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:06 on Oct 16,2018
+# Start time: 15:32:24 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/flopr.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity flopr
 # -- Compiling architecture flipflop_n of flopr
-# End time: 14:28:06 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:24 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dmem.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:06 on Oct 16,2018
+# Start time: 15:32:24 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dmem.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -119,11 +142,11 @@
 # -- Compiling entity dmem
 # -- Compiling architecture behave of dmem
 # ** Warning: /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/dmem.vhd(46): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
-# End time: 14:28:06 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:25 on Oct 21,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 1
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/aludec.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:06 on Oct 16,2018
+# Start time: 15:32:25 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/aludec.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -131,11 +154,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity aludec
 # -- Compiling architecture behavior of aludec
-# End time: 14:28:06 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:25 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/alu.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:06 on Oct 16,2018
+# Start time: 15:32:25 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/alu.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -143,11 +166,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity alu
 # -- Compiling architecture synth of alu
-# End time: 14:28:06 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:25 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/adder.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:06 on Oct 16,2018
+# Start time: 15:32:25 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -155,11 +178,23 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity adder
 # -- Compiling architecture Behavior of adder
-# End time: 14:28:06 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:25 on Oct 21,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/clkDiv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:32:25 on Oct 21,2018
+# vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/clkDiv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity clkDiv
+# -- Compiling architecture rtl of clkDiv
+# End time: 15:32:25 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/writeback.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:06 on Oct 16,2018
+# Start time: 15:32:25 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/writeback.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -170,11 +205,11 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading entity mux2
-# End time: 14:28:06 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:25 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/fetch.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:06 on Oct 16,2018
+# Start time: 15:32:25 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/fetch.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -187,12 +222,12 @@
 # -- Loading package STD_LOGIC_SIGNED
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading entity mux2
-# -- Loading entity flopr
-# End time: 14:28:06 on Oct 16,2018, Elapsed time: 0:00:00
+# -- Loading entity flopre
+# End time: 15:32:25 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/execute.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:06 on Oct 16,2018
+# Start time: 15:32:25 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/execute.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -207,11 +242,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading entity mux2
 # -- Loading entity alu
-# End time: 14:28:07 on Oct 16,2018, Elapsed time: 0:00:01
+# End time: 15:32:25 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/decode.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:07 on Oct 16,2018
+# Start time: 15:32:25 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/decode.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -225,11 +260,11 @@
 # -- Loading package NUMERIC_STD
 # -- Loading entity regfile
 # -- Loading entity signext
-# End time: 14:28:07 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:25 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/controller.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:07 on Oct 16,2018
+# Start time: 15:32:26 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/controller.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -239,11 +274,11 @@
 # -- Loading entity maindec
 # -- Loading package NUMERIC_STD
 # -- Loading entity aludec
-# End time: 14:28:07 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:26 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/datapath.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:07 on Oct 16,2018
+# Start time: 15:32:26 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/datapath.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -251,16 +286,23 @@
 # -- Compiling entity datapath
 # -- Compiling architecture behav of datapath
 # -- Loading entity fetch
-# -- Loading entity flopr
+# -- Loading entity flopre
 # -- Loading entity decode
+# -- Loading package NUMERIC_STD
+# -- Loading entity hdunit
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity mux2
+# -- Loading entity flopr
 # -- Loading entity execute
 # -- Loading entity memory
 # -- Loading entity writeback
-# End time: 14:28:07 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:26 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/processor_arm.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:07 on Oct 16,2018
+# Start time: 15:32:26 on Oct 21,2018
 # vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/components/processor_arm.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -274,43 +316,60 @@
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_SIGNED
 # -- Loading entity dmem
-# End time: 14:28:07 on Oct 16,2018, Elapsed time: 0:00:00
+# End time: 15:32:26 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-# vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd}
+# vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/DE0_NANO_arm.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:28:07 on Oct 16,2018
-# vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd 
+# Start time: 15:32:26 on Oct 21,2018
+# vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/DE0_NANO_arm.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity processor_arm_tb
-# -- Compiling architecture Behavior of processor_arm_tb
+# -- Compiling entity DE0_NANO_arm
+# -- Compiling architecture arch of DE0_NANO_arm
 # -- Loading package NUMERIC_STD
 # -- Loading entity processor_arm
-# End time: 14:28:07 on Oct 16,2018, Elapsed time: 0:00:00
+# -- Loading entity clkDiv
+# End time: 15:32:26 on Oct 21,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  processor_arm_tb
+# vcom -2008 -work work {/home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/DE0_NANO_arm_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:32:26 on Oct 21,2018
+# vcom -reportprogress 300 -2008 -work work /home/flecox/arqutectura/lab2/DE0_NANO_ARM/testbenchs/DE0_NANO_arm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DE0_NANO_arm_tb
+# -- Compiling architecture Behavior of DE0_NANO_arm_tb
+# -- Loading entity DE0_NANO_arm
+# End time: 15:32:26 on Oct 21,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  DE0_NANO_arm_tb
 # vsim -i -l msim_transcript -do "DE0_NANO_run_msim_rtl_vhdl.do" 
-# Start time: 14:28:07 on Oct 16,2018
+# Start time: 15:32:26 on Oct 21,2018
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.processor_arm_tb(behavior)
+# Loading work.de0_nano_arm_tb(behavior)
+# Loading work.de0_nano_arm(arch)
 # Loading ieee.std_logic_arith(body)
 # Loading ieee.std_logic_signed(body)
 # Loading work.processor_arm(behav)
-# Loading work.datapath(behav)
 # Loading ieee.std_logic_unsigned(body)
+# Loading work.datapath(behav)
 # Loading work.fetch(behaviour)
 # Loading work.adder(behavior)
 # Loading work.mux2(synth)
-# Loading work.flopr(flipflop_n)
+# Loading work.flopre(flipflop_n)
 # Loading work.decode(behav)
 # Loading work.regfile(rtl)
 # Loading work.signext(synth)
+# Loading work.hdunit(hdunit_arq)
+# Loading work.flopr(flipflop_n)
 # Loading work.execute(behaviour)
 # Loading work.sl2(behavior)
 # Loading work.alu(synth)
@@ -321,6 +380,7 @@
 # Loading work.aludec(behavior)
 # Loading work.imem(rtl)
 # Loading work.dmem(behave)
+# Loading work.clkdiv(rtl)
 # 
 # add wave *
 # view structure
@@ -330,12 +390,12 @@
 # run -all
 # ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor_arm_tb/dut/imem_0
+#    Time: 0 ps  Iteration: 0  Instance: /de0_nano_arm_tb/dut/arm_proc_0/imem_0
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor_arm_tb/dut/datapath_0/decode_0/regfile_0
+#    Time: 0 ps  Iteration: 0  Instance: /de0_nano_arm_tb/dut/arm_proc_0/datapath_0/decode_0/regfile_0
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor_arm_tb/dut/datapath_0/decode_0/regfile_0
+#    Time: 0 ps  Iteration: 0  Instance: /de0_nano_arm_tb/dut/arm_proc_0/datapath_0/decode_0/regfile_0
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /processor_arm_tb/dut/datapath_0/decode_0/regfile_0
-# ** Note: fin del testdump
-#    Time: 3220 ns  Iteration: 1  Instance: /processor_arm_tb/dut/dmem_0
+#    Time: 0 ps  Iteration: 3  Instance: /de0_nano_arm_tb/dut/arm_proc_0/datapath_0/decode_0/regfile_0
+# End time: 15:33:08 on Oct 21,2018, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 5

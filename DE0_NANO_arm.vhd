@@ -5,7 +5,9 @@ entity DE0_NANO_arm is
     port (
         KEY : in std_logic_vector (1 downto 0);
 		  CLOCK_50 : in std_logic;
-		  LED : out std_logic_vector (7 downto 0)
+		  LED : out std_logic_vector (7 downto 0);
+		  write_data_out : out std_logic_vector(63 downto 0);
+		  dm_write_enable_out: out std_logic
     );
 end DE0_NANO_arm;
 
@@ -26,7 +28,8 @@ arm_proc_0: entity work.processor_arm
 		DM_writeData => DM_writeData_s,
 		DM_writeEnable => DM_writeEnable_s
 	 );
-	 
+	write_data_out <= DM_writeData_s;
+	dm_write_enable_out <= DM_writeEnable_s;
 clkDiv_0: entity work.clkDiv
 	port map (
 	   clk => CLOCK_50,
